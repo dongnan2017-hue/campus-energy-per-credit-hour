@@ -1,0 +1,817 @@
+term,crn,course_code,building,room,meeting_day,start_time,end_time,credit_units,credit_hours,enrollment,max_enrollment,course_title,section,subject_desc
+202630,3289,ANTH 105,Robinson Hall,406,Mon,09:15,10:20,1,4.0,20,30,An Introduction Anthropology,1H,Anthropology
+202630,3289,ANTH 105,Robinson Hall,406,Wed,09:15,10:20,1,4.0,20,30,An Introduction Anthropology,1H,Anthropology
+202630,3289,ANTH 105,Robinson Hall,406,Fri,09:15,10:20,1,4.0,20,30,An Introduction Anthropology,1H,Anthropology
+202630,3290,ANTH 105,Robinson Hall,401,Mon,10:30,11:35,1,4.0,23,30,An Introduction Anthropology,2H,Anthropology
+202630,3290,ANTH 105,Robinson Hall,401,Wed,10:30,11:35,1,4.0,23,30,An Introduction Anthropology,2H,Anthropology
+202630,3290,ANTH 105,Robinson Hall,401,Fri,10:30,11:35,1,4.0,23,30,An Introduction Anthropology,2H,Anthropology
+202630,3292,ANTH 105,Norris Center,100,Tue,10:30,12:20,1,4.0,30,30,An Introduction Anthropology,3H,Anthropology
+202630,3292,ANTH 105,Norris Center,100,Thu,10:30,12:20,1,4.0,30,30,An Introduction Anthropology,3H,Anthropology
+202630,3301,ANTH 271,Olin Hall,232,Mon,14:15,16:05,1,4.0,19,25,Nature and Society,1V,Anthropology
+202630,3301,ANTH 271,Olin Hall,232,Wed,14:15,16:05,1,4.0,19,25,Nature and Society,1V,Anthropology
+202630,3291,ANTH 315,Robinson Hall,313,Mon,14:15,15:20,1,4.0,8,15,Anthropological Theory,01,Anthropology
+202630,3291,ANTH 315,Robinson Hall,313,Wed,14:15,15:20,1,4.0,8,15,Anthropological Theory,01,Anthropology
+202630,3291,ANTH 315,Robinson Hall,313,Fri,14:15,15:20,1,4.0,8,15,Anthropological Theory,01,Anthropology
+202630,3293,ANTH 375,Robinson Hall,313,Mon,13:00,14:05,1,4.0,14,15,Archeology of Wild Rice in MI,01,Anthropology
+202630,3293,ANTH 375,Robinson Hall,313,Wed,13:00,14:05,1,4.0,14,15,Archeology of Wild Rice in MI,01,Anthropology
+202630,3293,ANTH 375,Robinson Hall,313,Fri,13:00,14:05,1,4.0,14,15,Archeology of Wild Rice in MI,01,Anthropology
+202630,3048,ART 102,Bobbit Visual Arts Center,202,Mon,14:15,17:00,1,4.0,11,20,Creative Process 2-D,1A,Art
+202630,3048,ART 102,Bobbit Visual Arts Center,202,Wed,14:15,17:00,1,4.0,11,20,Creative Process 2-D,1A,Art
+202630,3049,ART 103,Bobbit Visual Arts Center,2,Tue,09:15,11:40,1,4.0,9,10,Creative Process 3-D,1A,Art
+202630,3049,ART 103,Bobbit Visual Arts Center,2,Thu,09:15,11:40,1,4.0,9,10,Creative Process 3-D,1A,Art
+202630,3050,ART 121,Bobbit Visual Arts Center,213,Tue,14:15,17:00,1,4.0,18,22,Drawing,1A,Art
+202630,3050,ART 121,Bobbit Visual Arts Center,213,Thu,14:15,17:00,1,4.0,18,22,Drawing,1A,Art
+202630,3051,ART 201,Bobbit Visual Arts Center,102,Tue,10:30,12:20,1,4.0,3,8,Digital Tools I,01,Art
+202630,3051,ART 201,Bobbit Visual Arts Center,102,Thu,10:30,12:20,1,4.0,3,8,Digital Tools I,01,Art
+202630,3052,ART 241,Bobbit Visual Arts Center,209,Mon,14:15,17:00,1,4.0,15,16,Photography I,1A,Art
+202630,3052,ART 241,Bobbit Visual Arts Center,209,Wed,14:15,17:00,1,4.0,15,16,Photography I,1A,Art
+202630,3053,ART 261,Bobbit Visual Arts Center,ANN,Mon,09:15,11:40,1,4.0,13,16,Ceramics I,1A,Art
+202630,3053,ART 261,Bobbit Visual Arts Center,ANN,Wed,09:15,11:40,1,4.0,13,16,Ceramics I,1A,Art
+202630,3054,ART 263,Bobbit Visual Arts Center,ANN,Mon,14:15,17:00,0.5,2.0,0,5,Intermediate Ceramics,01,Art
+202630,3054,ART 263,Bobbit Visual Arts Center,ANN,Wed,14:15,17:00,0.5,2.0,0,5,Intermediate Ceramics,01,Art
+202630,3055,ART 264,Bobbit Visual Arts Center,ANN,Mon,14:15,17:00,0.5,2.0,0,5,Adv. Intermediate Ceramics,01,Art
+202630,3055,ART 264,Bobbit Visual Arts Center,ANN,Wed,14:15,17:00,0.5,2.0,0,5,Adv. Intermediate Ceramics,01,Art
+202630,3056,ART 303,Bobbit Visual Arts Center,102,Tue,10:30,12:20,1,4.0,0,4,Digital Tools II,01,Art
+202630,3056,ART 303,Bobbit Visual Arts Center,102,Thu,10:30,12:20,1,4.0,0,4,Digital Tools II,01,Art
+202630,3057,ART 361,Bobbit Visual Arts Center,ANN,Mon,14:15,17:00,1,4.0,3,5,Ceramics II,01,Art
+202630,3057,ART 361,Bobbit Visual Arts Center,ANN,Wed,14:15,17:00,1,4.0,3,5,Ceramics II,01,Art
+202630,3058,ART 362,Bobbit Visual Arts Center,ANN,Mon,14:15,17:00,1,4.0,1,5,Ceramics III,01,Art
+202630,3058,ART 362,Bobbit Visual Arts Center,ANN,Wed,14:15,17:00,1,4.0,1,5,Ceramics III,01,Art
+202630,3059,ART 363,Bobbit Visual Arts Center,ANN,Mon,14:15,17:00,1,4.0,2,5,Ceramics Workshop I,01,Art
+202630,3059,ART 363,Bobbit Visual Arts Center,ANN,Wed,14:15,17:00,1,4.0,2,5,Ceramics Workshop I,01,Art
+202630,3060,ART 364,Bobbit Visual Arts Center,ANN,Mon,14:15,17:00,1,4.0,0,5,Ceramics Workshop II,01,Art
+202630,3060,ART 364,Bobbit Visual Arts Center,ANN,Wed,14:15,17:00,1,4.0,0,5,Ceramics Workshop II,01,Art
+202630,3061,ART 365,Bobbit Visual Arts Center,ANN,Mon,14:15,17:00,1,4.0,0,5,Ceramics Workshop III,01,Art
+202630,3061,ART 365,Bobbit Visual Arts Center,ANN,Wed,14:15,17:00,1,4.0,0,5,Ceramics Workshop III,01,Art
+202630,3062,ARTH 117,Bobbit Visual Arts Center,113,Mon,13:00,14:05,1,4.0,24,30,Global Art History Before 1400,1L,Art History
+202630,3062,ARTH 117,Bobbit Visual Arts Center,113,Wed,13:00,14:05,1,4.0,24,30,Global Art History Before 1400,1L,Art History
+202630,3062,ARTH 117,Bobbit Visual Arts Center,113,Fri,13:00,14:05,1,4.0,24,30,Global Art History Before 1400,1L,Art History
+202630,3429,ARTH 206,Bobbit Visual Arts Center,113,Tue,10:30,12:20,1,4.0,11,25,Art of Egypt & North Africa,1H,Art History
+202630,3429,ARTH 206,Bobbit Visual Arts Center,113,Thu,10:30,12:20,1,4.0,11,25,Art of Egypt & North Africa,1H,Art History
+202630,3063,ARTH 214,Bobbit Visual Arts Center,113,Mon,09:15,10:20,1,4.0,20,20,Baroque Art,1D,Art History
+202630,3063,ARTH 214,Bobbit Visual Arts Center,113,Wed,09:15,10:20,1,4.0,20,20,Baroque Art,1D,Art History
+202630,3063,ARTH 214,Bobbit Visual Arts Center,113,Fri,09:15,10:20,1,4.0,20,20,Baroque Art,1D,Art History
+202630,3001,BIOL 195,Putnam Hall,257,Mon,08:00,09:05,1,4.0,33,48,"Ecol., Evol. & Biodiversity",1V,Biology
+202630,3001,BIOL 195,Putnam Hall,257,Wed,08:00,09:05,1,4.0,33,48,"Ecol., Evol. & Biodiversity",1V,Biology
+202630,3001,BIOL 195,Putnam Hall,257,Fri,08:00,09:05,1,4.0,33,48,"Ecol., Evol. & Biodiversity",1V,Biology
+202630,3002,BIOL 195,Putnam Hall,257,Mon,10:30,11:35,1,4.0,25,48,"Ecol., Evol. & Biodiversity",2V,Biology
+202630,3002,BIOL 195,Putnam Hall,257,Wed,10:30,11:35,1,4.0,25,48,"Ecol., Evol. & Biodiversity",2V,Biology
+202630,3002,BIOL 195,Putnam Hall,257,Fri,10:30,11:35,1,4.0,25,48,"Ecol., Evol. & Biodiversity",2V,Biology
+202630,3003,BIOL 195,Putnam Hall,257,Mon,11:45,12:50,1,4.0,37,48,"Ecol., Evol. & Biodiversity",3V,Biology
+202630,3003,BIOL 195,Putnam Hall,257,Wed,11:45,12:50,1,4.0,37,48,"Ecol., Evol. & Biodiversity",3V,Biology
+202630,3003,BIOL 195,Putnam Hall,257,Fri,11:45,12:50,1,4.0,37,48,"Ecol., Evol. & Biodiversity",3V,Biology
+202630,3004,BIOL 195L,Putnam Hall,055,Mon,13:00,16:00,0,0.0,19,24,Laboratory,01,Biology
+202630,3005,BIOL 195L,Putnam Hall,055,Tue,08:00,11:00,0,0.0,21,22,Laboratory,02,Biology
+202630,3006,BIOL 195L,Putnam Hall,055,Tue,13:00,16:00,0,0.0,14,24,Laboratory,03,Biology
+202630,3008,BIOL 195L,Putnam Hall,055,Thu,09:15,12:15,0,0.0,24,24,Laboratory,05,Biology
+202630,3009,BIOL 195L,Putnam Hall,055,Thu,14:15,17:15,0,0.0,17,24,Laboratory,06,Biology
+202630,3010,BIOL 210,Norris Center,009,Mon,10:30,11:35,1,4.0,14,24,Cell & Molecular Biology,1S,Biology
+202630,3010,BIOL 210,Norris Center,009,Wed,10:30,11:35,1,4.0,14,24,Cell & Molecular Biology,1S,Biology
+202630,3010,BIOL 210,Norris Center,009,Fri,10:30,11:35,1,4.0,14,24,Cell & Molecular Biology,1S,Biology
+202630,3011,BIOL 210,Palenske Hall,223,Mon,11:45,12:50,1,4.0,16,24,Cell & Molecular Biology,2S,Biology
+202630,3011,BIOL 210,Palenske Hall,223,Wed,11:45,12:50,1,4.0,16,24,Cell & Molecular Biology,2S,Biology
+202630,3011,BIOL 210,Palenske Hall,223,Fri,11:45,12:50,1,4.0,16,24,Cell & Molecular Biology,2S,Biology
+202630,3012,BIOL 210L,Putnam Hall,053,Tue,13:00,16:00,0,0.0,6,16,Laboratory,01,Biology
+202630,3013,BIOL 210L,Putnam Hall,053,Wed,13:00,16:00,0,0.0,7,16,Laboratory,02,Biology
+202630,3014,BIOL 210L,Putnam Hall,053,Thu,09:15,12:15,0,0.0,17,16,Laboratory,03,Biology
+202630,3015,BIOL 216,Kresge Science Bldg,176,Mon,08:00,09:05,1,4.0,8,16,Vascular Plants,01,Biology
+202630,3015,BIOL 216,Kresge Science Bldg,176,Wed,08:00,09:05,1,4.0,8,16,Vascular Plants,01,Biology
+202630,3015,BIOL 216,Kresge Science Bldg,176,Fri,08:00,09:05,1,4.0,8,16,Vascular Plants,01,Biology
+202630,3016,BIOL 216L,Kresge Science Bldg,176,Wed,13:00,16:00,0,0.0,8,16,Laboratory,01,Biology
+202630,3020,BIOL 225,Putnam Hall,255,Tue,10:30,12:20,1,4.0,16,16,Invertebrate Zoology,01,Biology
+202630,3020,BIOL 225,Putnam Hall,255,Thu,10:30,12:20,1,4.0,16,16,Invertebrate Zoology,01,Biology
+202630,3021,BIOL 225L,Kresge Science Bldg,173,Tue,13:00,16:00,0,0.0,16,16,Laboratory,01,Biology
+202630,3017,BIOL 237,Kresge Science Bldg,179,Mon,11:45,12:50,1,4.0,13,16,Ecology,1M,Biology
+202630,3017,BIOL 237,Kresge Science Bldg,179,Wed,11:45,12:50,1,4.0,13,16,Ecology,1M,Biology
+202630,3017,BIOL 237,Kresge Science Bldg,179,Fri,11:45,12:50,1,4.0,13,16,Ecology,1M,Biology
+202630,3018,BIOL 237L,Kresge Science Bldg,179,Mon,13:00,16:00,0,0.0,13,16,Laboratory,01,Biology
+202630,3019,BIOL 242,Kresge Science Bldg,173,Mon,10:30,11:35,1,4.0,14,16,Fund. of Cellular Neuroscience,01,Biology
+202630,3019,BIOL 242,Kresge Science Bldg,173,Wed,10:30,11:35,1,4.0,14,16,Fund. of Cellular Neuroscience,01,Biology
+202630,3019,BIOL 242,Kresge Science Bldg,173,Fri,10:30,11:35,1,4.0,14,16,Fund. of Cellular Neuroscience,01,Biology
+202630,3022,BIOL 300,Norris Center,102,Mon,11:45,12:50,1,4.0,39,40,Genetics,01,Biology
+202630,3022,BIOL 300,Norris Center,102,Wed,11:45,12:50,1,4.0,39,40,Genetics,01,Biology
+202630,3022,BIOL 300,Norris Center,102,Fri,11:45,12:50,1,4.0,39,40,Genetics,01,Biology
+202630,3023,BIOL 301,Norris Center,104,Tue,10:30,12:20,1,4.0,5,16,Cell Biology,01,Biology
+202630,3023,BIOL 301,Norris Center,104,Thu,10:30,12:20,1,4.0,5,16,Cell Biology,01,Biology
+202630,3024,BIOL 301L,Kresge Science Bldg,281,Wed,13:00,16:00,0,0.0,5,16,Laboratory,01,Biology
+202630,3025,BIOL 341,Putnam Hall,255,Mon,11:45,12:50,1,4.0,19,32,Physiology,01,Biology
+202630,3025,BIOL 341,Putnam Hall,255,Wed,11:45,12:50,1,4.0,19,32,Physiology,01,Biology
+202630,3025,BIOL 341,Putnam Hall,255,Fri,11:45,12:50,1,4.0,19,32,Physiology,01,Biology
+202630,3026,BIOL 341L,Kresge Science Bldg,278,Tue,13:00,16:00,0,0.0,10,16,Laboratory,01,Biology
+202630,3027,BIOL 341L,Kresge Science Bldg,278,Wed,13:00,16:00,0,0.0,9,16,Laboratory,02,Biology
+202630,3028,BIOL 360,Putnam Hall,251,Mon,14:15,16:05,1,4.0,12,16,Genomic Analysis,01,Biology
+202630,3028,BIOL 360,Putnam Hall,251,Wed,14:15,16:05,1,4.0,12,16,Genomic Analysis,01,Biology
+202630,3274,BUS 351,Robinson Hall,203,Tue,08:00,09:50,1,4.0,15,15,Interntnl Entrepreneurial Exch,1L,Business & Organizations
+202630,3274,BUS 351,Robinson Hall,203,Thu,08:00,09:50,1,4.0,15,15,Interntnl Entrepreneurial Exch,1L,Business & Organizations
+202630,3147,CHEM 152,Norris Center,102,Mon,08:00,09:05,1,4.0,27,30,Principles of Chemistry,1S,Chemistry
+202630,3147,CHEM 152,Norris Center,102,Wed,08:00,09:05,1,4.0,27,30,Principles of Chemistry,1S,Chemistry
+202630,3147,CHEM 152,Norris Center,102,Fri,08:00,09:05,1,4.0,27,30,Principles of Chemistry,1S,Chemistry
+202630,3148,CHEM 152,Norris Center,101,Mon,10:30,11:35,1,4.0,21,30,Principles of Chemistry,2S,Chemistry
+202630,3148,CHEM 152,Norris Center,101,Wed,10:30,11:35,1,4.0,21,30,Principles of Chemistry,2S,Chemistry
+202630,3148,CHEM 152,Norris Center,101,Fri,10:30,11:35,1,4.0,21,30,Principles of Chemistry,2S,Chemistry
+202630,3149,CHEM 152L,Kresge Science Bldg,372,Tue,08:00,11:35,0,0.0,18,20,Laboratory,01,Chemistry
+202630,3150,CHEM 152L,Kresge Science Bldg,372,Tue,13:00,16:35,0,0.0,16,20,Laboratory,02,Chemistry
+202630,3151,CHEM 152L,Kresge Science Bldg,372,Wed,13:00,16:35,0,0.0,14,20,Laboratory,03,Chemistry
+202630,3152,CHEM 154,Putnam Hall,255,Mon,09:15,10:20,1,4.0,30,20,Organic Structure & Reactivity,1M,Chemistry
+202630,3152,CHEM 154,Putnam Hall,255,Wed,09:15,10:20,1,4.0,30,20,Organic Structure & Reactivity,1M,Chemistry
+202630,3152,CHEM 154,Putnam Hall,255,Fri,09:15,10:20,1,4.0,30,20,Organic Structure & Reactivity,1M,Chemistry
+202630,3153,CHEM 154,Putnam Hall,255,Mon,10:30,11:35,1,4.0,28,20,Organic Structure & Reactivity,2M,Chemistry
+202630,3153,CHEM 154,Putnam Hall,255,Wed,10:30,11:35,1,4.0,28,20,Organic Structure & Reactivity,2M,Chemistry
+202630,3153,CHEM 154,Putnam Hall,255,Fri,10:30,11:35,1,4.0,28,20,Organic Structure & Reactivity,2M,Chemistry
+202630,3154,CHEM 154L,Kresge Science Bldg,381,Tue,08:00,11:35,0,0.0,19,16,Laboratory,01,Chemistry
+202630,3155,CHEM 154L,Kresge Science Bldg,381,Tue,13:00,16:35,0,0.0,18,16,Laboratory,02,Chemistry
+202630,3156,CHEM 154L,Kresge Science Bldg,381,Wed,13:00,16:35,0,0.0,20,16,Laboratory,03,Chemistry
+202630,3157,CHEM 206,Putnam Hall,355,Tue,13:00,16:35,1,4.0,12,16,Chemical Analysis,1V,Chemistry
+202630,3157,CHEM 206,Putnam Hall,355,Thu,14:15,17:50,1,4.0,12,16,Chemical Analysis,1V,Chemistry
+202630,3163,CHEM 278,Putnam Hall,257,Fri,13:00,14:05,0.25,1.0,7,16,Biochem/Chem Research,01,Chemistry
+202630,3164,CHEM 279,Putnam Hall,257,Fri,13:00,14:05,0.5,2.0,2,16,Biochem/Chem Research,01,Chemistry
+202630,3158,CHEM 301,Norris Center,104,Mon,10:30,11:35,1,4.0,13,24,Chemical Energetics & Kinetics,01,Chemistry
+202630,3158,CHEM 301,Norris Center,104,Wed,10:30,11:35,1,4.0,13,24,Chemical Energetics & Kinetics,01,Chemistry
+202630,3158,CHEM 301,Norris Center,104,Fri,10:30,11:35,1,4.0,13,24,Chemical Energetics & Kinetics,01,Chemistry
+202630,3159,CHEM 321,Kresge Science Bldg,381,Fri,13:00,16:35,1,4.0,6,16,Adv Synthesis Laboratory,01,Chemistry
+202630,3159,CHEM 321,Kresge Science Bldg,381,Thu,14:15,17:50,1,4.0,6,16,Adv Synthesis Laboratory,01,Chemistry
+202630,3160,CHEM 337,Norris Center,101,Mon,09:15,10:20,1,4.0,24,30,Biochemistry,01,Chemistry
+202630,3160,CHEM 337,Norris Center,101,Wed,09:15,10:20,1,4.0,24,30,Biochemistry,01,Chemistry
+202630,3160,CHEM 337,Norris Center,101,Fri,09:15,10:20,1,4.0,24,30,Biochemistry,01,Chemistry
+202630,3162,CHEM 352,Putnam Hall,257,Tue,10:30,12:20,1,4.0,18,24,Medicinal Chemistry,01,Chemistry
+202630,3162,CHEM 352,Putnam Hall,257,Thu,10:30,12:20,1,4.0,18,24,Medicinal Chemistry,01,Chemistry
+202630,3165,CHEM 378,Putnam Hall,257,Fri,13:00,14:05,0.25,1.0,0,16,Biochem/Chem Research,01,Chemistry
+202630,3166,CHEM 379,Putnam Hall,257,Fri,13:00,14:05,0.5,2.0,4,16,Biochem/Chem Research,01,Chemistry
+202630,3122,COMM 101,Olin Hall,232,Mon,13:00,14:05,1,4.0,26,30,Intro Human Communication,01,Communication Studies
+202630,3122,COMM 101,Olin Hall,232,Wed,13:00,14:05,1,4.0,26,30,Intro Human Communication,01,Communication Studies
+202630,3122,COMM 101,Olin Hall,232,Fri,13:00,14:05,1,4.0,26,30,Intro Human Communication,01,Communication Studies
+202630,3123,COMM 101,Olin Hall,217,Tue,08:00,09:50,1,4.0,26,30,Intro Human Communication,02,Communication Studies
+202630,3123,COMM 101,Olin Hall,217,Thu,08:00,09:50,1,4.0,26,30,Intro Human Communication,02,Communication Studies
+202630,3124,COMM 101,Olin Hall,218,Tue,14:15,16:05,1,4.0,25,30,Intro Human Communication,03,Communication Studies
+202630,3124,COMM 101,Olin Hall,218,Thu,14:15,16:05,1,4.0,25,30,Intro Human Communication,03,Communication Studies
+202630,3126,COMM 202,Olin Hall,215,Mon,10:30,11:35,1,4.0,25,25,Comm. in Interpersonal Context,1M,Communication Studies
+202630,3126,COMM 202,Olin Hall,215,Wed,10:30,11:35,1,4.0,25,25,Comm. in Interpersonal Context,1M,Communication Studies
+202630,3126,COMM 202,Olin Hall,215,Fri,10:30,11:35,1,4.0,25,25,Comm. in Interpersonal Context,1M,Communication Studies
+202630,3127,COMM 205,Olin Hall,232,Mon,09:15,10:20,1,4.0,31,25,Mass Communication,1H,Communication Studies
+202630,3127,COMM 205,Olin Hall,232,Wed,09:15,10:20,1,4.0,31,25,Mass Communication,1H,Communication Studies
+202630,3127,COMM 205,Olin Hall,232,Fri,09:15,10:20,1,4.0,31,25,Mass Communication,1H,Communication Studies
+202630,3128,COMM 208,Olin Hall,217,Mon,14:15,16:05,1,4.0,11,25,Health Communication,01,Communication Studies
+202630,3128,COMM 208,Olin Hall,217,Wed,14:15,16:05,1,4.0,11,25,Health Communication,01,Communication Studies
+202630,3129,COMM 209,Olin Hall,113,Mon,08:00,09:50,1,4.0,14,25,Sport Communication,01,Communication Studies
+202630,3129,COMM 209,Olin Hall,113,Wed,08:00,09:50,1,4.0,14,25,Sport Communication,01,Communication Studies
+202630,3130,COMM 215,Olin Hall,115,Mon,09:15,10:20,1,4.0,21,25,Social Media,01,Communication Studies
+202630,3130,COMM 215,Olin Hall,115,Wed,09:15,10:20,1,4.0,21,25,Social Media,01,Communication Studies
+202630,3130,COMM 215,Olin Hall,115,Fri,09:15,10:20,1,4.0,21,25,Social Media,01,Communication Studies
+202630,3131,COMM 215,Olin Hall,215,Mon,13:00,14:05,1,4.0,25,25,Social Media,02,Communication Studies
+202630,3131,COMM 215,Olin Hall,215,Wed,13:00,14:05,1,4.0,25,25,Social Media,02,Communication Studies
+202630,3131,COMM 215,Olin Hall,215,Fri,13:00,14:05,1,4.0,25,25,Social Media,02,Communication Studies
+202630,3132,COMM 241,Olin Hall,218,Tue,08:00,09:50,1,4.0,16,18,Public Speaking,01,Communication Studies
+202630,3132,COMM 241,Olin Hall,218,Thu,08:00,09:50,1,4.0,16,18,Public Speaking,01,Communication Studies
+202630,3437,COMM 241,Olin Hall,341,Tue,10:30,12:20,1,4.0,17,18,Public Speaking,02,Communication Studies
+202630,3437,COMM 241,Olin Hall,341,Thu,10:30,12:20,1,4.0,17,18,Public Speaking,02,Communication Studies
+202630,3133,COMM 300,Olin Hall,229,Tue,14:15,16:05,1,4.0,6,18,Communication Research Methods,01,Communication Studies
+202630,3133,COMM 300,Olin Hall,229,Thu,14:15,16:05,1,4.0,6,18,Communication Research Methods,01,Communication Studies
+202630,3134,COMM 300,Olin Hall,220,Tue,10:30,12:20,1,4.0,13,18,Communication Research Methods,02,Communication Studies
+202630,3134,COMM 300,Olin Hall,220,Thu,10:30,12:20,1,4.0,13,18,Communication Research Methods,02,Communication Studies
+202630,3135,COMM 303,Olin Hall,232,Mon,10:30,11:35,1,4.0,22,25,Comm. in Sports Organizations,01,Communication Studies
+202630,3135,COMM 303,Olin Hall,232,Wed,10:30,11:35,1,4.0,22,25,Comm. in Sports Organizations,01,Communication Studies
+202630,3135,COMM 303,Olin Hall,232,Fri,10:30,11:35,1,4.0,22,25,Comm. in Sports Organizations,01,Communication Studies
+202630,3137,COMM 330,Olin Hall,218,Mon,14:15,16:05,1,4.0,18,25,Advertising,01,Communication Studies
+202630,3137,COMM 330,Olin Hall,218,Wed,14:15,16:05,1,4.0,18,25,Advertising,01,Communication Studies
+202630,3138,COMM 351,Olin Hall,215,Mon,11:45,12:50,1,4.0,18,25,Persuasion,01,Communication Studies
+202630,3138,COMM 351,Olin Hall,215,Wed,11:45,12:50,1,4.0,18,25,Persuasion,01,Communication Studies
+202630,3138,COMM 351,Olin Hall,215,Fri,11:45,12:50,1,4.0,18,25,Persuasion,01,Communication Studies
+202630,3438,COMM 389,Olin Hall,215,Mon,14:15,15:20,1,4.0,6,25,"Children, Teens, and the Media",01,Communication Studies
+202630,3438,COMM 389,Olin Hall,215,Wed,14:15,15:20,1,4.0,6,25,"Children, Teens, and the Media",01,Communication Studies
+202630,3438,COMM 389,Olin Hall,215,Fri,14:15,15:20,1,4.0,6,25,"Children, Teens, and the Media",01,Communication Studies
+202630,3168,CS 171,Palenske Hall,227,Mon,10:30,11:35,1,4.0,14,24,Intro Computer Science I,1M,Computer Science
+202630,3168,CS 171,Palenske Hall,227,Wed,10:30,11:35,1,4.0,14,24,Intro Computer Science I,1M,Computer Science
+202630,3168,CS 171,Palenske Hall,227,Fri,10:30,11:35,1,4.0,14,24,Intro Computer Science I,1M,Computer Science
+202630,3169,CS 171L,Putnam Hall,251,Tue,14:15,16:15,0,0.0,14,24,Laboratory,01,Computer Science
+202630,3170,CS 173,Palenske Hall,231,Mon,10:30,11:35,1,4.0,4,24,Intro Computer Science II,1M,Computer Science
+202630,3170,CS 173,Palenske Hall,231,Wed,10:30,11:35,1,4.0,4,24,Intro Computer Science II,1M,Computer Science
+202630,3170,CS 173,Palenske Hall,231,Fri,10:30,11:35,1,4.0,4,24,Intro Computer Science II,1M,Computer Science
+202630,3171,CS 173L,Palenske Hall,231,Thu,09:15,11:15,0,0.0,4,24,Laboratory,01,Computer Science
+202630,3172,CS 256,Palenske Hall,231,Tue,13:00,13:50,0.25,1.0,2,20,Practicum in Javascript,01,Computer Science
+202630,3174,CS 289,Palenske Hall,223,Mon,09:15,10:20,1,4.0,4,20,Parallel Programming,01,Computer Science
+202630,3174,CS 289,Palenske Hall,223,Wed,09:15,10:20,1,4.0,4,20,Parallel Programming,01,Computer Science
+202630,3174,CS 289,Palenske Hall,223,Fri,09:15,10:20,1,4.0,4,20,Parallel Programming,01,Computer Science
+202630,3175,CS 299,Palenske Hall,227,Thu,15:30,16:35,0.25,1.0,1,15,Colloquium in Computer Science,01,Computer Science
+202630,3176,CS 352,Palenske Hall,225,Mon,14:15,16:05,1,4.0,5,15,Algorithms,01,Computer Science
+202630,3176,CS 352,Palenske Hall,225,Wed,14:15,16:05,1,4.0,5,15,Algorithms,01,Computer Science
+202630,3177,CS 354,Palenske Hall,227,Mon,08:00,09:05,1,4.0,4,15,Computer Organization,01,Computer Science
+202630,3177,CS 354,Palenske Hall,227,Wed,08:00,09:05,1,4.0,4,15,Computer Organization,01,Computer Science
+202630,3177,CS 354,Palenske Hall,227,Fri,08:00,09:05,1,4.0,4,15,Computer Organization,01,Computer Science
+202630,3178,CS 399,Palenske Hall,227,Thu,15:30,16:35,0.25,1.0,0,15,Colloquium in MATH & CS,01,Computer Science
+202630,3459,E&E 100,Norris Center,100,Fri,14:15,15:20,0,0.0,2,30,Earth & Environment Colloquium,01,Earth and Environment
+202630,3275,E&E 102,Norris Center,104,Mon,14:15,16:05,1,4.0,28,25,Intro to the Environment,1V,Earth and Environment
+202630,3275,E&E 102,Norris Center,104,Wed,14:15,16:05,1,4.0,28,25,Intro to the Environment,1V,Earth and Environment
+202630,3276,E&E 151,Norris Center,100,Mon,08:00,08:50,1,4.0,35,40,Introductory Geology,1S,Earth and Environment
+202630,3276,E&E 151,Norris Center,100,Wed,08:00,08:50,1,4.0,35,40,Introductory Geology,1S,Earth and Environment
+202630,3276,E&E 151,Norris Center,100,Fri,08:00,08:50,1,4.0,35,40,Introductory Geology,1S,Earth and Environment
+202630,3277,E&E 151L,Palenske Hall,123,Wed,13:00,16:00,0,0.0,16,20,Laboratory,01,Earth and Environment
+202630,3278,E&E 151L,Palenske Hall,123,Thu,14:15,17:15,0,0.0,19,20,Laboratory,02,Earth and Environment
+202630,3279,E&E 153,Norris Center,100,Mon,10:30,11:20,1,4.0,23,40,Introduction to Earth History,1S,Earth and Environment
+202630,3279,E&E 153,Norris Center,100,Wed,10:30,11:20,1,4.0,23,40,Introduction to Earth History,1S,Earth and Environment
+202630,3279,E&E 153,Norris Center,100,Fri,10:30,11:20,1,4.0,23,40,Introduction to Earth History,1S,Earth and Environment
+202630,3280,E&E 153L,Palenske Hall,121,Mon,13:00,16:00,0,0.0,10,20,Laboratory,01,Earth and Environment
+202630,3281,E&E 153L,Palenske Hall,121,Tue,13:00,16:00,0,0.0,13,20,Laboratory,02,Earth and Environment
+202630,3282,E&E 203,Putnam Hall,151,Mon,09:15,10:20,1,4.0,11,16,Mineralogy,01,Earth and Environment
+202630,3282,E&E 203,Putnam Hall,151,Wed,09:15,10:20,1,4.0,11,16,Mineralogy,01,Earth and Environment
+202630,3282,E&E 203,Putnam Hall,151,Fri,09:15,10:20,1,4.0,11,16,Mineralogy,01,Earth and Environment
+202630,3283,E&E 203L,Putnam Hall,151,Mon,13:00,16:00,0,0.0,11,16,Laboratory,01,Earth and Environment
+202630,3285,E&E 315,Palenske Hall,023,Mon,11:45,12:50,1,4.0,9,16,Groundwater,01,Earth and Environment
+202630,3285,E&E 315,Palenske Hall,023,Wed,11:45,12:50,1,4.0,9,16,Groundwater,01,Earth and Environment
+202630,3285,E&E 315,Palenske Hall,023,Fri,11:45,12:50,1,4.0,9,16,Groundwater,01,Earth and Environment
+202630,3286,E&E 315L,Palenske Hall,023,Wed,13:00,16:00,0,0.0,9,16,Laboratory,01,Earth and Environment
+202630,3249,E&M 101,Robinson Hall,407,Mon,10:30,11:35,1,4.0,31,40,Principles of Microeconomics,1M,Economics & Management
+202630,3249,E&M 101,Robinson Hall,407,Wed,10:30,11:35,1,4.0,31,40,Principles of Microeconomics,1M,Economics & Management
+202630,3249,E&M 101,Robinson Hall,407,Fri,10:30,11:35,1,4.0,31,40,Principles of Microeconomics,1M,Economics & Management
+202630,3250,E&M 101,Robinson Hall,407,Mon,11:45,12:50,1,4.0,39,40,Principles of Microeconomics,2M,Economics & Management
+202630,3250,E&M 101,Robinson Hall,407,Wed,11:45,12:50,1,4.0,39,40,Principles of Microeconomics,2M,Economics & Management
+202630,3250,E&M 101,Robinson Hall,407,Fri,11:45,12:50,1,4.0,39,40,Principles of Microeconomics,2M,Economics & Management
+202630,3251,E&M 101,Robinson Hall,406,Tue,10:30,12:20,1,4.0,36,40,Principles of Microeconomics,3M,Economics & Management
+202630,3251,E&M 101,Robinson Hall,406,Thu,10:30,12:20,1,4.0,36,40,Principles of Microeconomics,3M,Economics & Management
+202630,3252,E&M 102,Olin Hall,217,Mon,10:30,11:35,1,4.0,30,40,The Economy & Financial Market,1M,Economics & Management
+202630,3252,E&M 102,Olin Hall,217,Wed,10:30,11:35,1,4.0,30,40,The Economy & Financial Market,1M,Economics & Management
+202630,3252,E&M 102,Olin Hall,217,Fri,10:30,11:35,1,4.0,30,40,The Economy & Financial Market,1M,Economics & Management
+202630,3253,E&M 200,Robinson Hall,402,Tue,10:30,12:20,1,4.0,15,25,Economic Statistics,01,Economics & Management
+202630,3253,E&M 200,Robinson Hall,402,Thu,10:30,12:20,1,4.0,15,25,Economic Statistics,01,Economics & Management
+202630,3254,E&M 201,Robinson Hall,402,Mon,14:15,16:05,1,4.0,25,25,Intermediate Microeconomics,01,Economics & Management
+202630,3254,E&M 201,Robinson Hall,402,Wed,14:15,16:05,1,4.0,25,25,Intermediate Microeconomics,01,Economics & Management
+202630,3255,E&M 202,Olin Hall,112,Mon,09:15,10:20,1,4.0,25,25,Intermediate Macroeconomics,01,Economics & Management
+202630,3255,E&M 202,Olin Hall,112,Wed,09:15,10:20,1,4.0,25,25,Intermediate Macroeconomics,01,Economics & Management
+202630,3255,E&M 202,Olin Hall,112,Fri,09:15,10:20,1,4.0,25,25,Intermediate Macroeconomics,01,Economics & Management
+202630,3256,E&M 209,Robinson Hall,401,Tue,14:15,16:05,1,4.0,13,25,Inter. Microecon. w/Calculus,01,Economics & Management
+202630,3256,E&M 209,Robinson Hall,401,Thu,14:15,16:05,1,4.0,13,25,Inter. Microecon. w/Calculus,01,Economics & Management
+202630,3257,E&M 211,Robinson Hall,402,Mon,09:15,10:20,1,4.0,31,35,Financial Accounting,01,Economics & Management
+202630,3257,E&M 211,Robinson Hall,402,Wed,09:15,10:20,1,4.0,31,35,Financial Accounting,01,Economics & Management
+202630,3257,E&M 211,Robinson Hall,402,Fri,09:15,10:20,1,4.0,31,35,Financial Accounting,01,Economics & Management
+202630,3258,E&M 211,Robinson Hall,402,Mon,10:30,11:35,1,4.0,17,25,Financial Accounting,02,Economics & Management
+202630,3258,E&M 211,Robinson Hall,402,Wed,10:30,11:35,1,4.0,17,25,Financial Accounting,02,Economics & Management
+202630,3258,E&M 211,Robinson Hall,402,Fri,10:30,11:35,1,4.0,17,25,Financial Accounting,02,Economics & Management
+202630,3259,E&M 220,Robinson Hall,402,Tue,08:00,09:50,1,4.0,10,35,Marketing Principles,01,Economics & Management
+202630,3259,E&M 220,Robinson Hall,402,Thu,08:00,09:50,1,4.0,10,35,Marketing Principles,01,Economics & Management
+202630,3260,E&M 252,Robinson Hall,406,Mon,10:30,11:35,1,4.0,12,25,Strategic Management,01,Economics & Management
+202630,3260,E&M 252,Robinson Hall,406,Wed,10:30,11:35,1,4.0,12,25,Strategic Management,01,Economics & Management
+202630,3260,E&M 252,Robinson Hall,406,Fri,10:30,11:35,1,4.0,12,25,Strategic Management,01,Economics & Management
+202630,3261,E&M 259,Robinson Hall,401,Mon,09:15,10:20,1,4.0,19,25,Managing People and Orgnizatns,01,Economics & Management
+202630,3261,E&M 259,Robinson Hall,401,Wed,09:15,10:20,1,4.0,19,25,Managing People and Orgnizatns,01,Economics & Management
+202630,3261,E&M 259,Robinson Hall,401,Fri,09:15,10:20,1,4.0,19,25,Managing People and Orgnizatns,01,Economics & Management
+202630,3263,E&M 288,Robinson Hall,403,Mon,13:00,13:50,0.5,2.0,10,25,Project Management& Leadership,01,Economics & Management
+202630,3263,E&M 288,Robinson Hall,403,Wed,13:00,13:50,0.5,2.0,10,25,Project Management& Leadership,01,Economics & Management
+202630,3264,E&M 288,Robinson Hall,403,Mon,14:15,15:05,0.5,2.0,5,25,Small Business Management,02,Economics & Management
+202630,3264,E&M 288,Robinson Hall,403,Wed,14:15,15:05,0.5,2.0,5,25,Small Business Management,02,Economics & Management
+202630,3265,E&M 311,Robinson Hall,402,Mon,11:45,12:50,1,4.0,17,20,Intermediate Accounting I,01,Economics & Management
+202630,3265,E&M 311,Robinson Hall,402,Wed,11:45,12:50,1,4.0,17,20,Intermediate Accounting I,01,Economics & Management
+202630,3265,E&M 311,Robinson Hall,402,Fri,11:45,12:50,1,4.0,17,20,Intermediate Accounting I,01,Economics & Management
+202630,3266,E&M 313,Robinson Hall,402,Mon,08:00,09:05,1,4.0,13,25,Federal Income Taxation,01,Economics & Management
+202630,3266,E&M 313,Robinson Hall,402,Wed,08:00,09:05,1,4.0,13,25,Federal Income Taxation,01,Economics & Management
+202630,3266,E&M 313,Robinson Hall,402,Fri,08:00,09:05,1,4.0,13,25,Federal Income Taxation,01,Economics & Management
+202630,3267,E&M 316,Robinson Hall,403,Mon,09:15,10:20,1,4.0,6,25,Auditing,01,Economics & Management
+202630,3267,E&M 316,Robinson Hall,403,Wed,09:15,10:20,1,4.0,6,25,Auditing,01,Economics & Management
+202630,3267,E&M 316,Robinson Hall,403,Fri,09:15,10:20,1,4.0,6,25,Auditing,01,Economics & Management
+202630,3474,E&M 317,Robinson Hall,402,Mon,13:00,14:05,0.5,2.0,7,25,Accounting Information Systems,01,Economics & Management
+202630,3474,E&M 317,Robinson Hall,402,Wed,13:00,14:05,0.5,2.0,7,25,Accounting Information Systems,01,Economics & Management
+202630,3268,E&M 320,Olin Hall,115,Tue,10:30,12:20,1,4.0,20,25,Consumer Behavior,01,Economics & Management
+202630,3268,E&M 320,Olin Hall,115,Thu,10:30,12:20,1,4.0,20,25,Consumer Behavior,01,Economics & Management
+202630,3269,E&M 321,Olin Hall,115,Tue,14:15,16:05,1,4.0,13,25,Marketing Research,01,Economics & Management
+202630,3269,E&M 321,Olin Hall,115,Thu,14:15,16:05,1,4.0,13,25,Marketing Research,01,Economics & Management
+202630,3270,E&M 345,Robinson Hall,203,Mon,13:00,14:05,1,4.0,13,25,Money and Banking,01,Economics & Management
+202630,3270,E&M 345,Robinson Hall,203,Wed,13:00,14:05,1,4.0,13,25,Money and Banking,01,Economics & Management
+202630,3270,E&M 345,Robinson Hall,203,Fri,13:00,14:05,1,4.0,13,25,Money and Banking,01,Economics & Management
+202630,3271,E&M 346,Robinson Hall,407,Mon,14:15,15:20,1,4.0,26,25,Financial Markets,01,Economics & Management
+202630,3271,E&M 346,Robinson Hall,407,Wed,14:15,15:20,1,4.0,26,25,Financial Markets,01,Economics & Management
+202630,3271,E&M 346,Robinson Hall,407,Fri,14:15,15:20,1,4.0,26,25,Financial Markets,01,Economics & Management
+202630,3272,E&M 359,Olin Hall,112,Tue,10:30,12:20,1,4.0,14,25,Management,01,Economics & Management
+202630,3272,E&M 359,Olin Hall,112,Thu,10:30,12:20,1,4.0,14,25,Management,01,Economics & Management
+202630,3065,EDUC 110,Olin Hall,220,Tue,08:00,09:50,0.25,1.0,27,30,Exploring Teaching Colloquium,01,Education
+202630,3066,EDUC 195,Olin Hall,217,Tue,10:30,12:20,1,4.0,33,30,"Access, Equity, and Advocacy",1Y,Education
+202630,3066,EDUC 195,Olin Hall,217,Thu,10:30,12:20,1,4.0,33,30,"Access, Equity, and Advocacy",1Y,Education
+202630,3067,EDUC 196,Olin Hall,234,Tue,10:30,12:20,1,4.0,10,25,"Approaches, Supports, Tech.",01,Education
+202630,3067,EDUC 196,Olin Hall,234,Thu,10:30,12:20,1,4.0,10,25,"Approaches, Supports, Tech.",01,Education
+202630,3071,EDUC 207,Olin Hall,230,Tue,14:15,16:05,0.5,2.0,4,15,Educational Technology,01,Education
+202630,3068,EDUC 268,Olin Hall,230,Tue,10:30,12:20,0.5,2.0,0,20,Science Ped. in Elem. School,01,Education
+202630,3068,EDUC 268,Olin Hall,230,Thu,10:30,12:20,0.5,2.0,0,20,Science Ped. in Elem. School,01,Education
+202630,3069,EDUC 269,Olin Hall,230,Tue,10:30,12:20,1,4.0,6,20,Science Pedagogy in Elem. Sch.,1V,Education
+202630,3069,EDUC 269,Olin Hall,230,Thu,10:30,12:20,1,4.0,6,20,Science Pedagogy in Elem. Sch.,1V,Education
+202630,3070,EDUC 271,Olin Hall,234,Mon,08:00,09:50,1,4.0,9,20,Literacy Essentials Elem Curr.,01,Education
+202630,3070,EDUC 271,Olin Hall,234,Wed,08:00,09:50,1,4.0,9,20,Literacy Essentials Elem Curr.,01,Education
+202630,3072,EDUC 300,Olin Hall,230,Wed,14:15,15:20,0.25,1.0,6,15,Eligibility for Teacher Certif,01,Education
+202630,3073,EDUC 363,Olin Hall,230,Wed,10:30,11:35,0.25,1.0,7,15,Supp. Prep Teach Grades 3-4,01,Education
+202630,3074,EDUC 364,Olin Hall,230,Wed,10:30,11:35,0.25,1.0,4,15,Supp. Prep Teach Grades 5-6,01,Education
+202630,3075,EDUC 365,Olin Hall,230,Mon,14:15,15:20,0.25,1.0,4,15,Sup. Prep. Teaching in Mid Sch,01,Education
+202630,3076,EDUC 373,Olin Hall,230,Mon,08:00,09:50,1,4.0,5,15,Secondary Literacy Pedagogy,01,Education
+202630,3076,EDUC 373,Olin Hall,230,Wed,08:00,09:50,1,4.0,5,15,Secondary Literacy Pedagogy,01,Education
+202630,3081,EDUC 431,Olin Hall,234,Wed,16:30,19:50,1,4.0,5,15,Elementary School Teaching,01,Education
+202630,3082,EDUC 432,Olin Hall,234,Wed,16:30,19:50,1,4.0,2,15,Seminar:Secondary Std Tching,01,Education
+202630,3225,ENGL 100W,Vulgamore Hall,201,Mon,10:30,11:35,1,4.0,10,8,Writing Essentials,02,English
+202630,3225,ENGL 100W,Vulgamore Hall,201,Wed,10:30,11:35,1,4.0,10,8,Writing Essentials,02,English
+202630,3225,ENGL 100W,Vulgamore Hall,201,Fri,10:30,11:35,1,4.0,10,8,Writing Essentials,02,English
+202630,3224,ENGL 101W,Olin Hall,116,Mon,10:30,11:20,1,4.0,18,18,College Writing,01,English
+202630,3224,ENGL 101W,Olin Hall,116,Tue,10:30,11:20,1,4.0,18,18,College Writing,01,English
+202630,3224,ENGL 101W,Olin Hall,116,Wed,10:30,11:20,1,4.0,18,18,College Writing,01,English
+202630,3224,ENGL 101W,Olin Hall,116,Fri,10:30,11:20,1,4.0,18,18,College Writing,01,English
+202630,3242,ENGL 101W,Vulgamore Hall,304,Mon,14:15,16:05,1,4.0,17,18,College Writing,02,English
+202630,3242,ENGL 101W,Vulgamore Hall,304,Wed,14:15,16:05,1,4.0,17,18,College Writing,02,English
+202630,3245,ENGL 101W,Vulgamore Hall,123,Tue,10:30,12:20,1,4.0,17,18,College Writing,03,English
+202630,3245,ENGL 101W,Vulgamore Hall,123,Thu,10:30,12:20,1,4.0,17,18,College Writing,03,English
+202630,3246,ENGL 101W,Vulgamore Hall,304,Tue,14:15,16:05,1,4.0,18,18,College Writing,04,English
+202630,3246,ENGL 101W,Vulgamore Hall,304,Thu,14:15,16:05,1,4.0,18,18,College Writing,04,English
+202630,3248,ENGL 101W,Vulgamore Hall,204,Mon,08:00,09:05,1,4.0,16,18,College Writing,05,English
+202630,3248,ENGL 101W,Vulgamore Hall,204,Wed,08:00,09:05,1,4.0,16,18,College Writing,05,English
+202630,3248,ENGL 101W,Vulgamore Hall,204,Fri,08:00,09:05,1,4.0,16,18,College Writing,05,English
+202630,3496,ENGL 101W,Olin Hall,116,Tue,14:15,15:05,1,4.0,18,18,College Writing,06,English
+202630,3496,ENGL 101W,Olin Hall,116,Wed,14:15,15:05,1,4.0,18,18,College Writing,06,English
+202630,3496,ENGL 101W,Olin Hall,116,Thu,14:15,15:05,1,4.0,18,18,College Writing,06,English
+202630,3496,ENGL 101W,Olin Hall,116,Fri,14:15,15:05,1,4.0,18,18,College Writing,06,English
+202630,3238,ENGL 104W,Vulgamore Hall,304,Wed,19:00,21:00,0.25,1.0,2,20,Pleiad Practicum I,01,English
+202630,3235,ENGL 105W,Vulgamore Hall,302,Mon,17:15,18:15,0.25,1.0,4,25,Albion Review Practicum,01,English
+202630,3454,ENGL 108W,Vulgamore Hall,301,Wed,15:30,16:35,0.25,1.0,7,18,Writing Your Resume,01,English
+202630,3221,ENGL 128,Olin Hall,116,Mon,11:45,12:50,1,4.0,24,25,Fight The Man!,1T,English
+202630,3221,ENGL 128,Olin Hall,116,Wed,11:45,12:50,1,4.0,24,25,Fight The Man!,1T,English
+202630,3221,ENGL 128,Olin Hall,116,Fri,11:45,12:50,1,4.0,24,25,Fight The Man!,1T,English
+202630,3243,ENGL 130,Vulgamore Hall,304,Tue,10:30,12:20,1,4.0,22,25,Reading Dangerously,1T,English
+202630,3243,ENGL 130,Vulgamore Hall,304,Thu,10:30,12:20,1,4.0,22,25,Reading Dangerously,1T,English
+202630,3228,ENGL 157,Vulgamore Hall,204,Mon,14:15,15:20,1,4.0,13,25,Animal Tales,1T,English
+202630,3228,ENGL 157,Vulgamore Hall,204,Wed,14:15,15:20,1,4.0,13,25,Animal Tales,1T,English
+202630,3228,ENGL 157,Vulgamore Hall,204,Fri,14:15,15:20,1,4.0,13,25,Animal Tales,1T,English
+202630,3236,ENGL 166,Norris Center,102,Tue,14:15,16:05,1,4.0,24,25,Ouch! Comics and Medicine,1A,English
+202630,3236,ENGL 166,Norris Center,102,Thu,14:15,16:05,1,4.0,24,25,Ouch! Comics and Medicine,1A,English
+202630,3247,ENGL 189,Vulgamore Hall,302,Mon,14:15,16:05,1,4.0,17,25,Quantum Lit,1T,English
+202630,3247,ENGL 189,Vulgamore Hall,302,Wed,14:15,16:05,1,4.0,17,25,Quantum Lit,1T,English
+202630,3239,ENGL 204W,Vulgamore Hall,304,Wed,19:00,21:00,0.5,2.0,0,15,Pleiad Practicum II,01,English
+202630,3237,ENGL 207W,Vulgamore Hall,302,Tue,10:30,12:20,1,4.0,7,18,Multimedia Journalism,01,English
+202630,3237,ENGL 207W,Vulgamore Hall,302,Thu,10:30,12:20,1,4.0,7,18,Multimedia Journalism,01,English
+202630,3227,ENGL 208W,Vulgamore Hall,302,Mon,10:30,11:35,1,4.0,18,18,Professional Writing,01,English
+202630,3227,ENGL 208W,Vulgamore Hall,302,Wed,10:30,11:35,1,4.0,18,18,Professional Writing,01,English
+202630,3227,ENGL 208W,Vulgamore Hall,302,Fri,10:30,11:35,1,4.0,18,18,Professional Writing,01,English
+202630,3230,ENGL 215W,Vulgamore Hall,301,Mon,11:45,12:50,1,4.0,13,18,Introductory Creative Writing,1A,English
+202630,3230,ENGL 215W,Vulgamore Hall,301,Wed,11:45,12:50,1,4.0,13,18,Introductory Creative Writing,1A,English
+202630,3230,ENGL 215W,Vulgamore Hall,301,Fri,11:45,12:50,1,4.0,13,18,Introductory Creative Writing,1A,English
+202630,3233,ENGL 215W,Vulgamore Hall,302,Mon,13:00,14:05,1,4.0,12,18,Introductory Creative Writing,2A,English
+202630,3233,ENGL 215W,Vulgamore Hall,302,Wed,13:00,14:05,1,4.0,12,18,Introductory Creative Writing,2A,English
+202630,3233,ENGL 215W,Vulgamore Hall,302,Fri,13:00,14:05,1,4.0,12,18,Introductory Creative Writing,2A,English
+202630,3231,ENGL 218W,Vulgamore Hall,202,Mon,14:15,16:05,1,4.0,5,18,Intro. Writing Creat. Non-Fic.,1A,English
+202630,3231,ENGL 218W,Vulgamore Hall,202,Wed,14:15,16:05,1,4.0,5,18,Intro. Writing Creat. Non-Fic.,1A,English
+202630,3226,ENGL 224,Vulgamore Hall,201,Mon,14:15,16:05,1,4.0,11,25,Victorian Ghosts,1H,English
+202630,3226,ENGL 224,Vulgamore Hall,201,Wed,14:15,16:05,1,4.0,11,25,Victorian Ghosts,1H,English
+202630,3229,ENGL 225,Vulgamore Hall,301,Mon,13:00,14:05,1,4.0,8,25,Monsters Within,1T,English
+202630,3229,ENGL 225,Vulgamore Hall,301,Wed,13:00,14:05,1,4.0,8,25,Monsters Within,1T,English
+202630,3229,ENGL 225,Vulgamore Hall,301,Fri,13:00,14:05,1,4.0,8,25,Monsters Within,1T,English
+202630,3240,ENGL 304W,Vulgamore Hall,304,Wed,19:00,21:00,1,4.0,1,15,Pleiad Practicum III,01,English
+202630,3234,ENGL 319W,Vulgamore Hall,302,Mon,11:45,12:50,1,4.0,5,15,Fiction Workshop - Genre,01,English
+202630,3234,ENGL 319W,Vulgamore Hall,302,Wed,11:45,12:50,1,4.0,5,15,Fiction Workshop - Genre,01,English
+202630,3234,ENGL 319W,Vulgamore Hall,302,Fri,11:45,12:50,1,4.0,5,15,Fiction Workshop - Genre,01,English
+202630,3244,ENGL 352P,Vulgamore Hall,301,Tue,14:15,16:05,1,4.0,16,15,Toni Morrison,1Y,English
+202630,3244,ENGL 352P,Vulgamore Hall,301,Thu,14:15,16:05,1,4.0,16,15,Toni Morrison,1Y,English
+202630,3222,ENGL 368,Olin Hall,116,Mon,09:15,10:20,1,4.0,18,15,Literature of the Great Lakes,01,English
+202630,3222,ENGL 368,Olin Hall,116,Wed,09:15,10:20,1,4.0,18,15,Literature of the Great Lakes,01,English
+202630,3222,ENGL 368,Olin Hall,116,Fri,09:15,10:20,1,4.0,18,15,Literature of the Great Lakes,01,English
+202630,3329,ESP 101,Palenske Hall,121,Thu,08:00,09:50,0.5,2.0,9,25,Intro Environ. Sustainability,01,Environmental Sustainability
+202630,3319,ETHN 103,Olin Hall,121,Tue,10:30,12:20,1,4.0,28,25,Introduction to Ethnic Studies,1Y,Ethnic Studies
+202630,3319,ETHN 103,Olin Hall,121,Thu,10:30,12:20,1,4.0,28,25,Introduction to Ethnic Studies,1Y,Ethnic Studies
+202630,3439,ETHN 105,Robinson Hall,402,Tue,14:15,16:05,1,4.0,26,25,Introduction to Black Studies,1Y,Ethnic Studies
+202630,3439,ETHN 105,Robinson Hall,402,Thu,14:15,16:05,1,4.0,26,25,Introduction to Black Studies,1Y,Ethnic Studies
+202630,3331,HCI 101,Norris Center,100,Fri,13:00,14:05,0.25,1.0,32,60,Introduction to Healthcare,01,Healthcare Studies
+202630,3302,HIST 103,Robinson Hall,407,Tue,10:30,12:20,1,4.0,12,25,"Making Europe Mod., 1500-Pres.",1H,History
+202630,3302,HIST 103,Robinson Hall,407,Thu,10:30,12:20,1,4.0,12,25,"Making Europe Mod., 1500-Pres.",1H,History
+202630,3426,HIST 103,Robinson Hall,406,Tue,14:15,16:05,1,4.0,18,25,"Making Europe Mod., 1500-Pres.",2H,History
+202630,3426,HIST 103,Robinson Hall,406,Thu,14:15,16:05,1,4.0,18,25,"Making Europe Mod., 1500-Pres.",2H,History
+202630,3303,HIST 112,Robinson Hall,401,Mon,11:45,12:50,1,4.0,27,30,African History to 1800,1L,History
+202630,3303,HIST 112,Robinson Hall,401,Wed,11:45,12:50,1,4.0,27,30,African History to 1800,1L,History
+202630,3303,HIST 112,Robinson Hall,401,Fri,11:45,12:50,1,4.0,27,30,African History to 1800,1L,History
+202630,3304,HIST 131,Robinson Hall,203,Mon,10:30,11:35,1,4.0,23,25,US History to Civil War,1H,History
+202630,3304,HIST 131,Robinson Hall,203,Wed,10:30,11:35,1,4.0,23,25,US History to Civil War,1H,History
+202630,3304,HIST 131,Robinson Hall,203,Fri,10:30,11:35,1,4.0,23,25,US History to Civil War,1H,History
+202630,3486,HIST 189,Robinson Hall,203,Mon,14:15,16:05,1,4.0,20,25,Cultures in Conflict,1Y,History
+202630,3486,HIST 189,Robinson Hall,203,Wed,14:15,16:05,1,4.0,20,25,Cultures in Conflict,1Y,History
+202630,3308,HIST 289,Robinson Hall,203,Mon,11:45,12:50,1,4.0,16,25,Introduction to Public History,1H,History
+202630,3308,HIST 289,Robinson Hall,203,Wed,11:45,12:50,1,4.0,16,25,Introduction to Public History,1H,History
+202630,3308,HIST 289,Robinson Hall,203,Fri,11:45,12:50,1,4.0,16,25,Introduction to Public History,1H,History
+202630,3309,HIST 289,Robinson Hall,401,Tue,10:30,12:20,1,4.0,22,25,The Many Falls of Rome,2H,History
+202630,3309,HIST 289,Robinson Hall,401,Thu,10:30,12:20,1,4.0,22,25,The Many Falls of Rome,2H,History
+202630,3310,HIST 298,Robinson Hall,404,Mon,14:15,16:05,1,4.0,18,25,The 1960s,1Y,History
+202630,3310,HIST 298,Robinson Hall,404,Wed,14:15,16:05,1,4.0,18,25,The 1960s,1Y,History
+202630,3325,HIST 310,Robinson Hall,406,Mon,14:15,16:05,1,4.0,2,7,Power/Culture in Asia-Pacific,1Y,History
+202630,3325,HIST 310,Robinson Hall,406,Wed,14:15,16:05,1,4.0,2,7,Power/Culture in Asia-Pacific,1Y,History
+202630,3427,HIST 331,Robinson Hall,407,Mon,13:00,14:05,1,4.0,7,15,US Immigration History,1Y,History
+202630,3427,HIST 331,Robinson Hall,407,Wed,13:00,14:05,1,4.0,7,15,US Immigration History,1Y,History
+202630,3427,HIST 331,Robinson Hall,407,Fri,13:00,14:05,1,4.0,7,15,US Immigration History,1Y,History
+202630,3428,HIST 383,Robinson Hall,206,Tue,14:15,16:05,1,4.0,6,15,Jerusalem: City of Faiths,1L,History
+202630,3428,HIST 383,Robinson Hall,206,Thu,14:15,16:05,1,4.0,6,15,Jerusalem: City of Faiths,1L,History
+202630,3403,HSP 123H,Olin Hall,121,Mon,10:30,11:35,1,4.0,14,15,Biological Rhythms,2S,Honors Program
+202630,3403,HSP 123H,Olin Hall,121,Wed,10:30,11:35,1,4.0,14,15,Biological Rhythms,2S,Honors Program
+202630,3403,HSP 123H,Olin Hall,121,Fri,10:30,11:35,1,4.0,14,15,Biological Rhythms,2S,Honors Program
+202630,3404,HSP 123HL,Olin Hall,215,Thu,09:15,11:15,0,0.0,14,15,Biological Rhythms Laboratory,02,Honors Program
+202630,3030,HSP 124H,Kresge Science Bldg,275,Tue,14:15,16:05,1,4.0,11,15,Data Reasoning,1M,Honors Program
+202630,3030,HSP 124H,Kresge Science Bldg,275,Thu,14:15,16:05,1,4.0,11,15,Data Reasoning,1M,Honors Program
+202630,3085,HSP 158H,Olin Hall,220,Tue,14:15,16:05,1,4.0,14,15,Just Make It Pink,1D,Honors Program
+202630,3085,HSP 158H,Olin Hall,220,Thu,14:15,16:05,1,4.0,14,15,Just Make It Pink,1D,Honors Program
+202630,3405,HSP 172H,Astronomical Observatory,101,Mon,10:30,11:35,1,4.0,13,12,"Disney, Speilberg, & Lewis",1A,Honors Program
+202630,3405,HSP 172H,Astronomical Observatory,101,Wed,10:30,11:35,1,4.0,13,12,"Disney, Speilberg, & Lewis",1A,Honors Program
+202630,3405,HSP 172H,Astronomical Observatory,101,Fri,10:30,11:35,1,4.0,13,12,"Disney, Speilberg, & Lewis",1A,Honors Program
+202630,3457,HSP 175H,Goodrich Chapel,145,Tue,14:15,16:05,1,4.0,16,15,Music and the Holocaust,1H,Honors Program
+202630,3457,HSP 175H,Goodrich Chapel,145,Thu,14:15,16:05,1,4.0,16,15,Music and the Holocaust,1H,Honors Program
+202630,3406,HSP 178H,Bobbit Visual Arts Center,209,Mon,09:15,11:40,1,4.0,4,12,Queering Design,1D,Honors Program
+202630,3406,HSP 178H,Bobbit Visual Arts Center,209,Wed,09:15,11:40,1,4.0,4,12,Queering Design,1D,Honors Program
+202630,3407,HSP 397H,Olin Hall,218,Wed,18:00,19:00,0.25,1.0,21,30,Thesis Development Colloquy,01,Honors Program
+202630,3501,IDY 101,Olin Hall,217,Thu,13:00,14:05,0.25,1.0,5,0,Albion College Engagement,01,Interdisciplinary
+202630,3502,IDY 102,Olin Hall,217,Thu,13:00,14:05,0.25,1.0,2,0,Albion College Engagement,01,Interdisciplinary
+202630,3419,IDY 110,Olin Hall,220,Tue,13:00,14:05,0.25,1.0,8,16,Career and Life Planning,01,Interdisciplinary
+202630,3083,IDY 262,Olin Hall,234,Tue,08:00,09:50,1,4.0,8,25,Arts Integrated Learning,1A,Interdisciplinary
+202630,3083,IDY 262,Olin Hall,234,Thu,08:00,09:50,1,4.0,8,25,Arts Integrated Learning,1A,Interdisciplinary
+202630,3452,INTN 111,Robinson Hall,403,Mon,10:30,11:35,1,4.0,3,5,Journey to Japan,1L,International Studies
+202630,3452,INTN 111,Robinson Hall,403,Wed,10:30,11:35,1,4.0,3,5,Journey to Japan,1L,International Studies
+202630,3452,INTN 111,Robinson Hall,403,Fri,10:30,11:35,1,4.0,3,5,Journey to Japan,1L,International Studies
+202630,3323,INTN 130,Norris Center,102,Tue,10:30,12:20,1,4.0,25,25,Intro to International Studies,1L,International Studies
+202630,3323,INTN 130,Norris Center,102,Thu,10:30,12:20,1,4.0,25,25,Intro to International Studies,1L,International Studies
+202630,3324,INTN 310,Robinson Hall,406,Mon,14:15,16:05,1,4.0,4,8,Power/Culture in Asia-Pacific,1Y,International Studies
+202630,3324,INTN 310,Robinson Hall,406,Wed,14:15,16:05,1,4.0,4,8,Power/Culture in Asia-Pacific,1Y,International Studies
+202630,3453,JAPN 111,Robinson Hall,403,Mon,10:30,11:35,1,4.0,5,10,Journey to Japan,1L,Japanese
+202630,3453,JAPN 111,Robinson Hall,403,Wed,10:30,11:35,1,4.0,5,10,Journey to Japan,1L,Japanese
+202630,3453,JAPN 111,Robinson Hall,403,Fri,10:30,11:35,1,4.0,5,10,Journey to Japan,1L,Japanese
+202630,3337,KIN 101,Putnam Hall,155,Mon,10:30,11:35,1,4.0,17,25,Introduction to Kinesiology,01,Kinesiology
+202630,3337,KIN 101,Putnam Hall,155,Wed,10:30,11:35,1,4.0,17,25,Introduction to Kinesiology,01,Kinesiology
+202630,3337,KIN 101,Putnam Hall,155,Fri,10:30,11:35,1,4.0,17,25,Introduction to Kinesiology,01,Kinesiology
+202630,3031,KIN 206,Kresge Science Bldg,170,Tue,10:30,12:20,1,4.0,15,16,Care&Prevent. of Athltc Injury,01,Kinesiology
+202630,3031,KIN 206,Kresge Science Bldg,170,Thu,10:30,12:20,1,4.0,15,16,Care&Prevent. of Athltc Injury,01,Kinesiology
+202630,3032,KIN 210,Kresge Science Bldg,170,Tue,08:00,09:50,1,4.0,25,25,Nutrition,01,Kinesiology
+202630,3032,KIN 210,Kresge Science Bldg,170,Thu,08:00,09:50,1,4.0,25,25,Nutrition,01,Kinesiology
+202630,3033,KIN 230,Kresge Science Bldg,170,Mon,13:00,14:05,1,4.0,24,24,Human Systems Anatomy,01,Kinesiology
+202630,3033,KIN 230,Kresge Science Bldg,170,Wed,13:00,14:05,1,4.0,24,24,Human Systems Anatomy,01,Kinesiology
+202630,3033,KIN 230,Kresge Science Bldg,170,Fri,13:00,14:05,1,4.0,24,24,Human Systems Anatomy,01,Kinesiology
+202630,3034,KIN 230,Kresge Science Bldg,170,Mon,09:15,10:20,1,4.0,22,24,Human Systems Anatomy,02,Kinesiology
+202630,3034,KIN 230,Kresge Science Bldg,170,Wed,09:15,10:20,1,4.0,22,24,Human Systems Anatomy,02,Kinesiology
+202630,3034,KIN 230,Kresge Science Bldg,170,Fri,09:15,10:20,1,4.0,22,24,Human Systems Anatomy,02,Kinesiology
+202630,3035,KIN 233,Kresge Science Bldg,170,Mon,10:30,11:35,1,4.0,24,22,Human Gross Anatomy,1S,Kinesiology
+202630,3035,KIN 233,Kresge Science Bldg,170,Wed,10:30,11:35,1,4.0,24,22,Human Gross Anatomy,1S,Kinesiology
+202630,3035,KIN 233,Kresge Science Bldg,170,Fri,10:30,11:35,1,4.0,24,22,Human Gross Anatomy,1S,Kinesiology
+202630,3036,KIN 233L,Kresge Science Bldg,087,Tue,09:15,11:35,0,0.0,11,12,Laboratory,01,Kinesiology
+202630,3037,KIN 233L,Kresge Science Bldg,087,Tue,13:00,15:20,0,0.0,13,12,Laboratory,02,Kinesiology
+202630,3455,KIN 250,Putnam Hall,155,Mon,13:00,14:05,1,4.0,13,16,Science of Strength&Conditiong,01,Kinesiology
+202630,3455,KIN 250,Putnam Hall,155,Wed,13:00,14:05,1,4.0,13,16,Science of Strength&Conditiong,01,Kinesiology
+202630,3455,KIN 250,Putnam Hall,155,Fri,13:00,14:05,1,4.0,13,16,Science of Strength&Conditiong,01,Kinesiology
+202630,3039,KIN 305,Putnam Hall,155,Mon,09:15,10:20,1,4.0,16,16,Physical Activity Epidemiology,1D,Kinesiology
+202630,3039,KIN 305,Putnam Hall,155,Wed,09:15,10:20,1,4.0,16,16,Physical Activity Epidemiology,1D,Kinesiology
+202630,3039,KIN 305,Putnam Hall,155,Fri,09:15,10:20,1,4.0,16,16,Physical Activity Epidemiology,1D,Kinesiology
+202630,3332,KIN 313,Kresge Science Bldg,087,Thu,09:15,11:15,0.5,2.0,6,0,Cadaver Dissection,01,Kinesiology
+202630,3336,KIN 365,Kresge Science Bldg,170,Tue,14:15,16:05,1,4.0,22,24,Functional Anatomy,01,Kinesiology
+202630,3336,KIN 365,Kresge Science Bldg,170,Thu,14:15,16:05,1,4.0,22,24,Functional Anatomy,01,Kinesiology
+202630,3041,KIN 369,Putnam Hall,155,Mon,11:45,12:50,1,4.0,19,20,Human Physiology,01,Kinesiology
+202630,3041,KIN 369,Putnam Hall,155,Wed,11:45,12:50,1,4.0,19,20,Human Physiology,01,Kinesiology
+202630,3041,KIN 369,Putnam Hall,155,Fri,11:45,12:50,1,4.0,19,20,Human Physiology,01,Kinesiology
+202630,3042,KIN 369L,Putnam Hall,155,Tue,09:15,11:35,0,0.0,19,20,Laboratory,01,Kinesiology
+202630,3043,KIN 379,Olin Hall,112,Mon,11:45,12:50,1,4.0,16,20,Exercise Physiology,01,Kinesiology
+202630,3043,KIN 379,Olin Hall,112,Wed,11:45,12:50,1,4.0,16,20,Exercise Physiology,01,Kinesiology
+202630,3043,KIN 379,Olin Hall,112,Fri,11:45,12:50,1,4.0,16,20,Exercise Physiology,01,Kinesiology
+202630,3044,KIN 379L,Putnam Hall,155,Thu,09:15,11:35,0,0.0,16,20,Laboratory,01,Kinesiology
+202630,3029,LA 101,Putnam Hall,257,Mon,09:15,10:20,1,4.0,16,16,Vaccines: Hopes and Fears,01,Liberal Arts
+202630,3029,LA 101,Putnam Hall,257,Wed,09:15,10:20,1,4.0,16,16,Vaccines: Hopes and Fears,01,Liberal Arts
+202630,3029,LA 101,Putnam Hall,257,Fri,09:15,10:20,1,4.0,16,16,Vaccines: Hopes and Fears,01,Liberal Arts
+202630,3029,LA 101,Putnam Hall,257,Thu,13:00,14:05,1,4.0,16,16,Vaccines: Hopes and Fears,01,Liberal Arts
+202630,3084,LA 101,Olin Hall,217,Mon,09:15,10:20,1,4.0,19,16,Brown v. Board of Ed & Beyond,02,Liberal Arts
+202630,3084,LA 101,Olin Hall,217,Wed,09:15,10:20,1,4.0,19,16,Brown v. Board of Ed & Beyond,02,Liberal Arts
+202630,3084,LA 101,Olin Hall,217,Fri,09:15,10:20,1,4.0,19,16,Brown v. Board of Ed & Beyond,02,Liberal Arts
+202630,3084,LA 101,Olin Hall,234,Thu,13:00,14:05,1,4.0,19,16,Brown v. Board of Ed & Beyond,02,Liberal Arts
+202630,3116,LA 101,Vulgamore Hall,103,Mon,09:15,10:20,1,4.0,15,16,What if...?,03,Liberal Arts
+202630,3116,LA 101,Vulgamore Hall,103,Wed,09:15,10:20,1,4.0,15,16,What if...?,03,Liberal Arts
+202630,3116,LA 101,Vulgamore Hall,103,Fri,09:15,10:20,1,4.0,15,16,What if...?,03,Liberal Arts
+202630,3116,LA 101,Olin Hall,115,Thu,13:00,14:05,1,4.0,15,16,What if...?,03,Liberal Arts
+202630,3146,LA 101,Vulgamore Hall,123,Mon,09:15,10:20,1,4.0,14,16,Languages,04,Liberal Arts
+202630,3146,LA 101,Vulgamore Hall,123,Wed,09:15,10:20,1,4.0,14,16,Languages,04,Liberal Arts
+202630,3146,LA 101,Vulgamore Hall,123,Fri,09:15,10:20,1,4.0,14,16,Languages,04,Liberal Arts
+202630,3146,LA 101,Vulgamore Hall,123,Thu,13:00,14:05,1,4.0,14,16,Languages,04,Liberal Arts
+202630,3167,LA 101,Putnam Hall,253,Mon,09:15,10:20,1,4.0,16,16,Science's Greatest Stories,05,Liberal Arts
+202630,3167,LA 101,Putnam Hall,253,Wed,09:15,10:20,1,4.0,16,16,Science's Greatest Stories,05,Liberal Arts
+202630,3167,LA 101,Putnam Hall,253,Fri,09:15,10:20,1,4.0,16,16,Science's Greatest Stories,05,Liberal Arts
+202630,3167,LA 101,Putnam Hall,253,Thu,13:00,14:05,1,4.0,16,16,Science's Greatest Stories,05,Liberal Arts
+202630,3200,LA 101,Herrick Speech and Theater,508,Mon,09:15,10:20,1,4.0,14,16,World Building,06,Liberal Arts
+202630,3200,LA 101,Herrick Speech and Theater,508,Wed,09:15,10:20,1,4.0,14,16,World Building,06,Liberal Arts
+202630,3200,LA 101,Herrick Speech and Theater,508,Fri,09:15,10:20,1,4.0,14,16,World Building,06,Liberal Arts
+202630,3200,LA 101,Herrick Speech and Theater,508,Thu,13:00,14:05,1,4.0,14,16,World Building,06,Liberal Arts
+202630,3223,LA 101,Vulgamore Hall,201,Mon,09:15,10:20,1,4.0,16,16,May the Odds be Ever in Your F,07,Liberal Arts
+202630,3223,LA 101,Vulgamore Hall,201,Wed,09:15,10:20,1,4.0,16,16,May the Odds be Ever in Your F,07,Liberal Arts
+202630,3223,LA 101,Vulgamore Hall,201,Fri,09:15,10:20,1,4.0,16,16,May the Odds be Ever in Your F,07,Liberal Arts
+202630,3223,LA 101,Vulgamore Hall,201,Thu,13:00,14:05,1,4.0,16,16,May the Odds be Ever in Your F,07,Liberal Arts
+202630,3232,LA 101,Vulgamore Hall,302,Mon,09:15,10:20,1,4.0,15,16,The Plot Thickens,08,Liberal Arts
+202630,3232,LA 101,Vulgamore Hall,302,Wed,09:15,10:20,1,4.0,15,16,The Plot Thickens,08,Liberal Arts
+202630,3232,LA 101,Vulgamore Hall,302,Fri,09:15,10:20,1,4.0,15,16,The Plot Thickens,08,Liberal Arts
+202630,3232,LA 101,Vulgamore Hall,302,Thu,13:00,14:05,1,4.0,15,16,The Plot Thickens,08,Liberal Arts
+202630,3288,LA 101,Palenske Hall,023,Mon,09:15,10:20,1,4.0,14,16,Why Fish Don't Exist,09,Liberal Arts
+202630,3288,LA 101,Palenske Hall,023,Wed,09:15,10:20,1,4.0,14,16,Why Fish Don't Exist,09,Liberal Arts
+202630,3288,LA 101,Palenske Hall,023,Fri,09:15,10:20,1,4.0,14,16,Why Fish Don't Exist,09,Liberal Arts
+202630,3288,LA 101,Palenske Hall,023,Thu,13:00,14:05,1,4.0,14,16,Why Fish Don't Exist,09,Liberal Arts
+202630,3294,LA 101,Robinson Hall,407,Mon,09:15,10:20,1,4.0,16,16,Ancient Aliens and Lost Civil.,10,Liberal Arts
+202630,3294,LA 101,Robinson Hall,407,Wed,09:15,10:20,1,4.0,16,16,Ancient Aliens and Lost Civil.,10,Liberal Arts
+202630,3294,LA 101,Robinson Hall,407,Fri,09:15,10:20,1,4.0,16,16,Ancient Aliens and Lost Civil.,10,Liberal Arts
+202630,3294,LA 101,Robinson Hall,407,Thu,13:00,14:05,1,4.0,16,16,Ancient Aliens and Lost Civil.,10,Liberal Arts
+202630,3295,LA 101,Olin Hall,229,Mon,09:15,10:20,1,4.0,18,16,The Horror!,11,Liberal Arts
+202630,3295,LA 101,Olin Hall,229,Wed,09:15,10:20,1,4.0,18,16,The Horror!,11,Liberal Arts
+202630,3295,LA 101,Olin Hall,229,Fri,09:15,10:20,1,4.0,18,16,The Horror!,11,Liberal Arts
+202630,3295,LA 101,Olin Hall,229,Thu,13:00,14:05,1,4.0,18,16,The Horror!,11,Liberal Arts
+202630,3305,LA 101,Robinson Hall,203,Mon,09:15,10:20,1,4.0,16,16,Food Fight!,12,Liberal Arts
+202630,3305,LA 101,Robinson Hall,203,Wed,09:15,10:20,1,4.0,16,16,Food Fight!,12,Liberal Arts
+202630,3305,LA 101,Robinson Hall,203,Fri,09:15,10:20,1,4.0,16,16,Food Fight!,12,Liberal Arts
+202630,3305,LA 101,Robinson Hall,203,Thu,13:00,14:05,1,4.0,16,16,Food Fight!,12,Liberal Arts
+202630,3418,LA 101,Goodrich Chapel,145,Mon,09:15,10:20,1,4.0,16,16,Music in the Movies,13,Liberal Arts
+202630,3418,LA 101,Goodrich Chapel,145,Wed,09:15,10:20,1,4.0,16,16,Music in the Movies,13,Liberal Arts
+202630,3418,LA 101,Goodrich Chapel,145,Fri,09:15,10:20,1,4.0,16,16,Music in the Movies,13,Liberal Arts
+202630,3418,LA 101,Goodrich Chapel,145,Thu,13:00,14:05,1,4.0,16,16,Music in the Movies,13,Liberal Arts
+202630,3425,LA 101,Olin Hall,220,Mon,09:15,10:20,1,4.0,12,16,To Sleep or Not To Sleep,15,Liberal Arts
+202630,3425,LA 101,Olin Hall,220,Wed,09:15,10:20,1,4.0,12,16,To Sleep or Not To Sleep,15,Liberal Arts
+202630,3425,LA 101,Olin Hall,220,Fri,09:15,10:20,1,4.0,12,16,To Sleep or Not To Sleep,15,Liberal Arts
+202630,3425,LA 101,Olin Hall,220,Thu,13:00,14:05,1,4.0,12,16,To Sleep or Not To Sleep,15,Liberal Arts
+202630,3440,LA 101,Olin Hall,218,Mon,09:15,10:20,1,4.0,16,16,"Have Fun, Kick A** in College",16,Liberal Arts
+202630,3440,LA 101,Olin Hall,218,Wed,09:15,10:20,1,4.0,16,16,"Have Fun, Kick A** in College",16,Liberal Arts
+202630,3440,LA 101,Olin Hall,218,Fri,09:15,10:20,1,4.0,16,16,"Have Fun, Kick A** in College",16,Liberal Arts
+202630,3440,LA 101,Olin Hall,218,Thu,13:00,14:05,1,4.0,16,16,"Have Fun, Kick A** in College",16,Liberal Arts
+202630,3442,LA 101,Norris Center,104,Mon,09:15,10:20,1,4.0,14,16,"Creativity-Art,Music,Science,",17,Liberal Arts
+202630,3442,LA 101,Norris Center,104,Wed,09:15,10:20,1,4.0,14,16,"Creativity-Art,Music,Science,",17,Liberal Arts
+202630,3442,LA 101,Norris Center,104,Fri,09:15,10:20,1,4.0,14,16,"Creativity-Art,Music,Science,",17,Liberal Arts
+202630,3442,LA 101,Norris Center,104,Thu,13:00,14:05,1,4.0,14,16,"Creativity-Art,Music,Science,",17,Liberal Arts
+202630,3444,LA 101,Norris Center,009,Mon,09:15,10:20,1,4.0,16,16,Med Ethics: Hollywood v. Reali,18,Liberal Arts
+202630,3444,LA 101,Norris Center,009,Wed,09:15,10:20,1,4.0,16,16,Med Ethics: Hollywood v. Reali,18,Liberal Arts
+202630,3444,LA 101,Norris Center,009,Fri,09:15,10:20,1,4.0,16,16,Med Ethics: Hollywood v. Reali,18,Liberal Arts
+202630,3444,LA 101,Norris Center,009,Thu,13:00,14:05,1,4.0,16,16,Med Ethics: Hollywood v. Reali,18,Liberal Arts
+202630,3446,LA 101,Goodrich Chapel,127,Mon,09:15,10:20,1,4.0,16,16,Broadway From The Beginning,19,Liberal Arts
+202630,3446,LA 101,Goodrich Chapel,127,Wed,09:15,10:20,1,4.0,16,16,Broadway From The Beginning,19,Liberal Arts
+202630,3446,LA 101,Goodrich Chapel,127,Fri,09:15,10:20,1,4.0,16,16,Broadway From The Beginning,19,Liberal Arts
+202630,3446,LA 101,Goodrich Chapel,127,Thu,13:00,14:05,1,4.0,16,16,Broadway From The Beginning,19,Liberal Arts
+202630,3447,LA 101,Norris Center,100,Mon,09:15,10:20,1,4.0,16,16,Ka-Ching!,20,Liberal Arts
+202630,3447,LA 101,Norris Center,100,Wed,09:15,10:20,1,4.0,16,16,Ka-Ching!,20,Liberal Arts
+202630,3447,LA 101,Norris Center,100,Fri,09:15,10:20,1,4.0,16,16,Ka-Ching!,20,Liberal Arts
+202630,3447,LA 101,Norris Center,100,Thu,13:00,14:05,1,4.0,16,16,Ka-Ching!,20,Liberal Arts
+202630,3448,LA 101,Vulgamore Hall,204,Mon,09:15,10:20,1,4.0,12,16,Culture Shock/Campus Confidenc,21,Liberal Arts
+202630,3448,LA 101,Vulgamore Hall,204,Wed,09:15,10:20,1,4.0,12,16,Culture Shock/Campus Confidenc,21,Liberal Arts
+202630,3448,LA 101,Vulgamore Hall,204,Fri,09:15,10:20,1,4.0,12,16,Culture Shock/Campus Confidenc,21,Liberal Arts
+202630,3449,LA 101,Vulgamore Hall,304,Mon,09:15,10:20,1,4.0,15,16,Somehow I Manage,22,Liberal Arts
+202630,3449,LA 101,Vulgamore Hall,304,Wed,09:15,10:20,1,4.0,15,16,Somehow I Manage,22,Liberal Arts
+202630,3449,LA 101,Vulgamore Hall,304,Fri,09:15,10:20,1,4.0,15,16,Somehow I Manage,22,Liberal Arts
+202630,3449,LA 101,Vulgamore Hall,304,Thu,13:00,14:05,1,4.0,15,16,Somehow I Manage,22,Liberal Arts
+202630,3477,LA 112,Olin Hall,112,Tue,13:00,14:05,0.25,1.0,31,35,Albion Community & Culture,01,Liberal Arts
+202630,3477,LA 112,Olin Hall,112,Thu,13:00,14:05,0.25,1.0,31,35,Albion Community & Culture,01,Liberal Arts
+202630,3179,MATH 100,Palenske Hall,223,Mon,14:15,15:20,1,4.0,20,18,Mathematics Essentials,01,Mathematics
+202630,3179,MATH 100,Palenske Hall,223,Wed,14:15,15:20,1,4.0,20,18,Mathematics Essentials,01,Mathematics
+202630,3179,MATH 100,Palenske Hall,223,Fri,14:15,15:20,1,4.0,20,18,Mathematics Essentials,01,Mathematics
+202630,3180,MATH 100,Palenske Hall,,Mon,15:30,16:35,1,4.0,16,18,Mathematics Essentials,02,Mathematics
+202630,3180,MATH 100,Palenske Hall,,Wed,15:30,16:35,1,4.0,16,18,Mathematics Essentials,02,Mathematics
+202630,3180,MATH 100,Palenske Hall,,Fri,15:30,16:35,1,4.0,16,18,Mathematics Essentials,02,Mathematics
+202630,3181,MATH 120,Palenske Hall,223,Mon,08:00,09:05,1,4.0,25,25,College Algebra,01,Mathematics
+202630,3181,MATH 120,Palenske Hall,223,Wed,08:00,09:05,1,4.0,25,25,College Algebra,01,Mathematics
+202630,3181,MATH 120,Palenske Hall,223,Fri,08:00,09:05,1,4.0,25,25,College Algebra,01,Mathematics
+202630,3182,MATH 120,Palenske Hall,225,Mon,09:15,10:20,1,4.0,13,25,College Algebra,02,Mathematics
+202630,3182,MATH 120,Palenske Hall,225,Wed,09:15,10:20,1,4.0,13,25,College Algebra,02,Mathematics
+202630,3182,MATH 120,Palenske Hall,225,Fri,09:15,10:20,1,4.0,13,25,College Algebra,02,Mathematics
+202630,3183,MATH 120,Palenske Hall,225,Mon,10:30,11:35,1,4.0,22,25,College Algebra,03,Mathematics
+202630,3183,MATH 120,Palenske Hall,225,Wed,10:30,11:35,1,4.0,22,25,College Algebra,03,Mathematics
+202630,3183,MATH 120,Palenske Hall,225,Fri,10:30,11:35,1,4.0,22,25,College Algebra,03,Mathematics
+202630,3184,MATH 127,Palenske Hall,225,Mon,13:00,14:05,0.5,2.0,13,25,Trigonometry,01,Mathematics
+202630,3184,MATH 127,Palenske Hall,225,Fri,13:00,14:05,0.5,2.0,13,25,Trigonometry,01,Mathematics
+202630,3185,MATH 141,Palenske Hall,223,Mon,10:30,11:35,1,4.0,19,25,Calculus of a Single Variable,1M,Mathematics
+202630,3185,MATH 141,Palenske Hall,223,Tue,10:30,11:35,1,4.0,19,25,Calculus of a Single Variable,1M,Mathematics
+202630,3185,MATH 141,Palenske Hall,223,Wed,10:30,11:35,1,4.0,19,25,Calculus of a Single Variable,1M,Mathematics
+202630,3185,MATH 141,Palenske Hall,223,Fri,10:30,11:35,1,4.0,19,25,Calculus of a Single Variable,1M,Mathematics
+202630,3186,MATH 141,Palenske Hall,223,Mon,13:00,14:05,1,4.0,21,25,Calculus of a Single Variable,2M,Mathematics
+202630,3186,MATH 141,Palenske Hall,223,Tue,13:00,14:05,1,4.0,21,25,Calculus of a Single Variable,2M,Mathematics
+202630,3186,MATH 141,Palenske Hall,223,Wed,13:00,14:05,1,4.0,21,25,Calculus of a Single Variable,2M,Mathematics
+202630,3186,MATH 141,Palenske Hall,223,Fri,13:00,14:05,1,4.0,21,25,Calculus of a Single Variable,2M,Mathematics
+202630,3187,MATH 143,Palenske Hall,221,Mon,11:45,12:50,1,4.0,11,25,Calculus Single Variable II,1M,Mathematics
+202630,3187,MATH 143,Palenske Hall,221,Tue,11:45,12:50,1,4.0,11,25,Calculus Single Variable II,1M,Mathematics
+202630,3187,MATH 143,Palenske Hall,221,Wed,11:45,12:50,1,4.0,11,25,Calculus Single Variable II,1M,Mathematics
+202630,3187,MATH 143,Palenske Hall,221,Fri,11:45,12:50,1,4.0,11,25,Calculus Single Variable II,1M,Mathematics
+202630,3188,MATH 209,Palenske Hall,227,Mon,11:45,12:50,1,4.0,25,25,An Introduction to Statistics,1M,Mathematics
+202630,3188,MATH 209,Palenske Hall,227,Wed,11:45,12:50,1,4.0,25,25,An Introduction to Statistics,1M,Mathematics
+202630,3188,MATH 209,Palenske Hall,227,Fri,11:45,12:50,1,4.0,25,25,An Introduction to Statistics,1M,Mathematics
+202630,3189,MATH 209,Palenske Hall,227,Mon,14:15,15:20,1,4.0,20,25,An Introduction to Statistics,2M,Mathematics
+202630,3189,MATH 209,Palenske Hall,227,Wed,14:15,15:20,1,4.0,20,25,An Introduction to Statistics,2M,Mathematics
+202630,3189,MATH 209,Palenske Hall,227,Fri,14:15,15:20,1,4.0,20,25,An Introduction to Statistics,2M,Mathematics
+202630,3456,MATH 212,Palenske Hall,221,Mon,08:00,09:05,1,4.0,6,20,Math of Investment & Credit,01,Mathematics
+202630,3456,MATH 212,Palenske Hall,221,Tue,08:00,09:05,1,4.0,6,20,Math of Investment & Credit,01,Mathematics
+202630,3456,MATH 212,Palenske Hall,221,Wed,08:00,09:05,1,4.0,6,20,Math of Investment & Credit,01,Mathematics
+202630,3456,MATH 212,Palenske Hall,221,Fri,08:00,09:05,1,4.0,6,20,Math of Investment & Credit,01,Mathematics
+202630,3190,MATH 239,Palenske Hall,227,Mon,09:15,10:20,1,4.0,10,25,Discrete Structures,1M,Mathematics
+202630,3190,MATH 239,Palenske Hall,227,Wed,09:15,10:20,1,4.0,10,25,Discrete Structures,1M,Mathematics
+202630,3190,MATH 239,Palenske Hall,227,Fri,09:15,10:20,1,4.0,10,25,Discrete Structures,1M,Mathematics
+202630,3191,MATH 245,Palenske Hall,225,Mon,11:45,12:50,1,4.0,17,25,Multivariate Calculus,1M,Mathematics
+202630,3191,MATH 245,Palenske Hall,225,Tue,11:45,12:50,1,4.0,17,25,Multivariate Calculus,1M,Mathematics
+202630,3191,MATH 245,Palenske Hall,225,Wed,11:45,12:50,1,4.0,17,25,Multivariate Calculus,1M,Mathematics
+202630,3191,MATH 245,Palenske Hall,225,Fri,11:45,12:50,1,4.0,17,25,Multivariate Calculus,1M,Mathematics
+202630,3192,MATH 250,Palenske Hall,221,Tue,10:30,11:35,0.25,1.0,2,20,Problem Solving Seminar,01,Mathematics
+202630,3193,MATH 299,Palenske Hall,227,Thu,15:30,16:35,0.25,1.0,6,15,Colloquium in Math & CS,01,Mathematics
+202630,3194,MATH 309,Palenske Hall,227,Mon,19:00,21:00,1,4.0,17,15,Mathematical Statistics,01,Mathematics
+202630,3194,MATH 309,Palenske Hall,227,Thu,19:00,21:00,1,4.0,17,15,Mathematical Statistics,01,Mathematics
+202630,3196,MATH 335,Palenske Hall,221,Tue,09:15,10:20,1,4.0,3,15,Abstract Algebra,01,Mathematics
+202630,3196,MATH 335,Palenske Hall,221,Thu,09:15,10:20,1,4.0,3,15,Abstract Algebra,01,Mathematics
+202630,3196,MATH 335,Palenske Hall,221,Fri,09:15,10:20,1,4.0,3,15,Abstract Algebra,01,Mathematics
+202630,3197,MATH 399,Palenske Hall,227,Thu,15:30,16:35,0.25,1.0,1,15,Colloquium in MATH & CS,01,Mathematics
+202630,3338,MUS 100,Goodrich Chapel,STAGE,Tue,13:00,14:05,0,0.0,31,50,Music Major Seminar,01,Music
+202630,3339,MUS 104,Goodrich Chapel,145,Mon,11:45,12:35,1,4.0,13,24,Gateway to Music,1A,Music
+202630,3339,MUS 104,Goodrich Chapel,145,Tue,11:45,12:35,1,4.0,13,24,Gateway to Music,1A,Music
+202630,3339,MUS 104,Goodrich Chapel,145,Wed,11:45,12:35,1,4.0,13,24,Gateway to Music,1A,Music
+202630,3339,MUS 104,Goodrich Chapel,145,Thu,11:45,12:35,1,4.0,13,24,Gateway to Music,1A,Music
+202630,3340,MUS 115,Goodrich Chapel,127,Tue,14:15,16:05,1,4.0,20,25,Global Music,1L,Music
+202630,3340,MUS 115,Goodrich Chapel,127,Thu,14:15,16:05,1,4.0,20,25,Global Music,1L,Music
+202630,3341,MUS 121,Goodrich Chapel,STAGE,Mon,17:00,18:45,0.25,1.0,18,60,Marching Band,01,Music
+202630,3341,MUS 121,Goodrich Chapel,STAGE,Wed,17:00,18:45,0.25,1.0,18,60,Marching Band,01,Music
+202630,3341,MUS 121,Goodrich Chapel,STAGE,Fri,17:00,18:45,0.25,1.0,18,60,Marching Band,01,Music
+202630,3342,MUS 124,Goodrich Chapel,127,Tue,16:15,18:00,0.25,1.0,10,24,Jazz Ensemble,01,Music
+202630,3342,MUS 124,Goodrich Chapel,127,Thu,16:15,18:00,0.25,1.0,10,24,Jazz Ensemble,01,Music
+202630,3343,MUS 125,Goodrich Chapel,127,Mon,16:45,18:00,0.25,1.0,18,60,Symphony Orchestra,01,Music
+202630,3343,MUS 125,Goodrich Chapel,STAGE,Tue,18:30,20:45,0.25,1.0,18,60,Symphony Orchestra,01,Music
+202630,3345,MUS 131,Goodrich Chapel,STAGE,Tue,16:15,18:00,0.25,1.0,14,50,Concert Choir,01,Music
+202630,3345,MUS 131,Goodrich Chapel,STAGE,Thu,16:15,18:00,0.25,1.0,14,50,Concert Choir,01,Music
+202630,3346,MUS 132,Goodrich Chapel,145,Tue,18:30,20:00,0.25,1.0,2,20,Briton Singers,01,Music
+202630,3346,MUS 132,Goodrich Chapel,145,Thu,18:30,20:00,0.25,1.0,2,20,Briton Singers,01,Music
+202630,3445,MUS 189,Goodrich Chapel,127,Mon,08:00,09:05,1,4.0,27,25,Women in Country Music,1D,Music
+202630,3445,MUS 189,Goodrich Chapel,127,Wed,08:00,09:05,1,4.0,27,25,Women in Country Music,1D,Music
+202630,3445,MUS 189,Goodrich Chapel,127,Fri,08:00,09:05,1,4.0,27,25,Women in Country Music,1D,Music
+202630,3351,MUS 204,Goodrich Chapel,141,Mon,09:15,10:20,1,4.0,8,20,Foundations of Music 2,01,Music
+202630,3351,MUS 204,Goodrich Chapel,141,Tue,09:15,10:20,1,4.0,8,20,Foundations of Music 2,01,Music
+202630,3351,MUS 204,Goodrich Chapel,141,Wed,09:15,10:20,1,4.0,8,20,Foundations of Music 2,01,Music
+202630,3351,MUS 204,Goodrich Chapel,141,Thu,09:15,10:20,1,4.0,8,20,Foundations of Music 2,01,Music
+202630,3352,MUS 204L,Goodrich Chapel,149,Fri,09:15,10:05,0,0.0,8,20,Keyboard Skills Foundations II,01,Music
+202630,3354,MUS 246,Goodrich Chapel,127,Mon,10:30,11:35,0.5,2.0,8,15,Percussion Teach. & Tech.,01,Music
+202630,3354,MUS 246,Goodrich Chapel,127,Wed,10:30,11:35,0.5,2.0,8,15,Percussion Teach. & Tech.,01,Music
+202630,3430,MUS 289,Goodrich Chapel,145,Mon,14:15,16:05,1,4.0,11,20,Your Brain on Music,1A,Music
+202630,3430,MUS 289,Goodrich Chapel,145,Wed,14:15,16:05,1,4.0,11,20,Your Brain on Music,1A,Music
+202630,3109,PHIL 101,Vulgamore Hall,204,Mon,10:30,11:35,1,4.0,26,30,Introduction to Philosophy,1T,Philosophy
+202630,3109,PHIL 101,Vulgamore Hall,204,Wed,10:30,11:35,1,4.0,26,30,Introduction to Philosophy,1T,Philosophy
+202630,3109,PHIL 101,Vulgamore Hall,204,Fri,10:30,11:35,1,4.0,26,30,Introduction to Philosophy,1T,Philosophy
+202630,3110,PHIL 101,Vulgamore Hall,204,Mon,11:45,12:50,1,4.0,28,30,Introduction to Philosophy,2T,Philosophy
+202630,3110,PHIL 101,Vulgamore Hall,204,Wed,11:45,12:50,1,4.0,28,30,Introduction to Philosophy,2T,Philosophy
+202630,3110,PHIL 101,Vulgamore Hall,204,Fri,11:45,12:50,1,4.0,28,30,Introduction to Philosophy,2T,Philosophy
+202630,3111,PHIL 101,Vulgamore Hall,204,Tue,08:00,09:50,1,4.0,16,25,Introduction to Philosophy,3T,Philosophy
+202630,3111,PHIL 101,Vulgamore Hall,204,Thu,08:00,09:50,1,4.0,16,25,Introduction to Philosophy,3T,Philosophy
+202630,3112,PHIL 107,Vulgamore Hall,304,Mon,10:30,11:35,1,4.0,12,30,Logic and Critical Reasoning,1M,Philosophy
+202630,3112,PHIL 107,Vulgamore Hall,304,Wed,10:30,11:35,1,4.0,12,30,Logic and Critical Reasoning,1M,Philosophy
+202630,3112,PHIL 107,Vulgamore Hall,304,Fri,10:30,11:35,1,4.0,12,30,Logic and Critical Reasoning,1M,Philosophy
+202630,3113,PHIL 201,Vulgamore Hall,204,Tue,10:30,12:20,1,4.0,22,25,Ethics,1T,Philosophy
+202630,3113,PHIL 201,Vulgamore Hall,204,Thu,10:30,12:20,1,4.0,22,25,Ethics,1T,Philosophy
+202630,3114,PHIL 212,Vulgamore Hall,204,Mon,13:00,14:05,1,4.0,17,20,Modern Philosophy,1H,Philosophy
+202630,3114,PHIL 212,Vulgamore Hall,204,Wed,13:00,14:05,1,4.0,17,20,Modern Philosophy,1H,Philosophy
+202630,3114,PHIL 212,Vulgamore Hall,204,Fri,13:00,14:05,1,4.0,17,20,Modern Philosophy,1H,Philosophy
+202630,3431,PHIL 234,Vulgamore Hall,201,Tue,10:30,12:20,1,4.0,2,10,"God, Evil and Miracles",1T,Philosophy
+202630,3431,PHIL 234,Vulgamore Hall,201,Thu,10:30,12:20,1,4.0,2,10,"God, Evil and Miracles",1T,Philosophy
+202630,3115,PHIL 306,Vulgamore Hall,202,Tue,14:15,16:05,1,4.0,13,15,Neuroscience and Ethics,1T,Philosophy
+202630,3115,PHIL 306,Vulgamore Hall,202,Thu,14:15,16:05,1,4.0,13,15,Neuroscience and Ethics,1T,Philosophy
+202630,3209,PHYS 105,Norris Center,102,Mon,13:00,14:05,1,4.0,21,24,Introductory Astronomy,1S,Physics
+202630,3209,PHYS 105,Norris Center,102,Wed,13:00,14:05,1,4.0,21,24,Introductory Astronomy,1S,Physics
+202630,3209,PHYS 105,Norris Center,102,Fri,13:00,14:05,1,4.0,21,24,Introductory Astronomy,1S,Physics
+202630,3210,PHYS 105L,Palenske Hall,321,Thu,14:15,16:30,0,0.0,21,24,Laboratory,01,Physics
+202630,3211,PHYS 115,Norris Center,102,Mon,10:30,11:35,1,4.0,28,40,General Physics,01,Physics
+202630,3211,PHYS 115,Norris Center,102,Wed,10:30,11:35,1,4.0,28,40,General Physics,01,Physics
+202630,3211,PHYS 115,Norris Center,102,Fri,10:30,11:35,1,4.0,28,40,General Physics,01,Physics
+202630,3212,PHYS 115L,Palenske Hall,321,Tue,08:00,10:15,0,0.0,17,20,Laboratory,01,Physics
+202630,3213,PHYS 115L,Palenske Hall,321,Thu,10:30,12:45,0,0.0,11,20,Laboratory,02,Physics
+202630,3214,PHYS 167,Palenske Hall,321,Mon,13:00,15:05,1,4.0,15,24,Analytical Physics I,1S,Physics
+202630,3214,PHYS 167,Palenske Hall,321,Wed,13:00,15:05,1,4.0,15,24,Analytical Physics I,1S,Physics
+202630,3214,PHYS 167,Palenske Hall,321,Fri,13:00,15:05,1,4.0,15,24,Analytical Physics I,1S,Physics
+202630,3215,PHYS 191,Norris Center,102,Tue,13:00,14:05,0.25,1.0,7,20,Physics-Astronomy Seminar I,01,Physics
+202630,3503,PHYS 240,Putnam Hall,253,Tue,14:15,16:05,1,4.0,7,16,Math Methods in Phys. Science,01,Physics
+202630,3503,PHYS 240,Putnam Hall,253,Thu,14:15,16:05,1,4.0,7,16,Math Methods in Phys. Science,01,Physics
+202630,3450,PHYS 245,Palenske Hall,329,Mon,14:15,15:55,1,4.0,8,18,Electronics & Robotics,01,Physics
+202630,3450,PHYS 245,Palenske Hall,329,Wed,14:15,15:55,1,4.0,8,18,Electronics & Robotics,01,Physics
+202630,3450,PHYS 245,Palenske Hall,329,Fri,14:15,15:55,1,4.0,8,18,Electronics & Robotics,01,Physics
+202630,3216,PHYS 291,Norris Center,102,Tue,13:00,14:05,0.25,1.0,3,10,Physics-Astronomy Seminar II,01,Physics
+202630,3218,PHYS 336,Putnam Hall,253,Mon,10:30,11:35,1,4.0,4,24,Electricity & Magnetism,01,Physics
+202630,3218,PHYS 336,Putnam Hall,253,Wed,10:30,11:35,1,4.0,4,24,Electricity & Magnetism,01,Physics
+202630,3218,PHYS 336,Putnam Hall,253,Fri,10:30,11:35,1,4.0,4,24,Electricity & Magnetism,01,Physics
+202630,3314,PLSC 101,Robinson Hall,406,Mon,11:45,12:50,1,4.0,25,25,Politics of American Democracy,1H,Political Science
+202630,3314,PLSC 101,Robinson Hall,406,Wed,11:45,12:50,1,4.0,25,25,Politics of American Democracy,1H,Political Science
+202630,3314,PLSC 101,Robinson Hall,406,Fri,11:45,12:50,1,4.0,25,25,Politics of American Democracy,1H,Political Science
+202630,3316,PLSC 103,Robinson Hall,407,Tue,14:15,16:05,1,4.0,15,25,Intro. to International Pol.,1L,Political Science
+202630,3316,PLSC 103,Robinson Hall,407,Thu,14:15,16:05,1,4.0,15,25,Intro. to International Pol.,1L,Political Science
+202630,3312,PLSC 105,Robinson Hall,404,Mon,10:30,11:35,1,4.0,16,25,Intro to Political Thought,1H,Political Science
+202630,3312,PLSC 105,Robinson Hall,404,Wed,10:30,11:35,1,4.0,16,25,Intro to Political Thought,1H,Political Science
+202630,3312,PLSC 105,Robinson Hall,404,Fri,10:30,11:35,1,4.0,16,25,Intro to Political Thought,1H,Political Science
+202630,3313,PLSC 224,Robinson Hall,403,Tue,10:30,12:20,1,4.0,10,20,Constitutional Law & Politics,01,Political Science
+202630,3313,PLSC 224,Robinson Hall,403,Thu,10:30,12:20,1,4.0,10,20,Constitutional Law & Politics,01,Political Science
+202630,3315,PLSC 315,Robinson Hall,313,Mon,09:15,10:20,1,4.0,12,15,Campaigns & Elections,01,Political Science
+202630,3315,PLSC 315,Robinson Hall,313,Wed,09:15,10:20,1,4.0,12,15,Campaigns & Elections,01,Political Science
+202630,3315,PLSC 315,Robinson Hall,313,Fri,09:15,10:20,1,4.0,12,15,Campaigns & Elections,01,Political Science
+202630,3317,PLSC 336,Robinson Hall,206,Mon,10:30,11:35,1,4.0,5,15,International Relations,1L,Political Science
+202630,3317,PLSC 336,Robinson Hall,206,Wed,10:30,11:35,1,4.0,5,15,International Relations,1L,Political Science
+202630,3317,PLSC 336,Robinson Hall,206,Fri,10:30,11:35,1,4.0,5,15,International Relations,1L,Political Science
+202630,3086,PSYC 101,Olin Hall,341,Mon,10:30,11:35,1,4.0,26,35,Introduction to Psychology,1M,Psychology
+202630,3086,PSYC 101,Olin Hall,341,Wed,10:30,11:35,1,4.0,26,35,Introduction to Psychology,1M,Psychology
+202630,3086,PSYC 101,Olin Hall,341,Fri,10:30,11:35,1,4.0,26,35,Introduction to Psychology,1M,Psychology
+202630,3087,PSYC 101,Olin Hall,341,Mon,11:45,12:50,1,4.0,26,35,Introduction to Psychology,2M,Psychology
+202630,3087,PSYC 101,Olin Hall,341,Wed,11:45,12:50,1,4.0,26,35,Introduction to Psychology,2M,Psychology
+202630,3087,PSYC 101,Olin Hall,341,Fri,11:45,12:50,1,4.0,26,35,Introduction to Psychology,2M,Psychology
+202630,3088,PSYC 101,Olin Hall,341,Mon,13:00,14:05,1,4.0,31,35,Introduction to Psychology,3M,Psychology
+202630,3088,PSYC 101,Olin Hall,341,Wed,13:00,14:05,1,4.0,31,35,Introduction to Psychology,3M,Psychology
+202630,3088,PSYC 101,Olin Hall,341,Fri,13:00,14:05,1,4.0,31,35,Introduction to Psychology,3M,Psychology
+202630,3089,PSYC 101,Olin Hall,341,Mon,14:15,15:20,1,4.0,21,35,Introduction to Psychology,4M,Psychology
+202630,3089,PSYC 101,Olin Hall,341,Wed,14:15,15:20,1,4.0,21,35,Introduction to Psychology,4M,Psychology
+202630,3089,PSYC 101,Olin Hall,341,Fri,14:15,15:20,1,4.0,21,35,Introduction to Psychology,4M,Psychology
+202630,3090,PSYC 236,Olin Hall,220,Mon,11:45,12:50,1,4.0,22,23,Social Psychology,1Y,Psychology
+202630,3090,PSYC 236,Olin Hall,220,Wed,11:45,12:50,1,4.0,22,23,Social Psychology,1Y,Psychology
+202630,3090,PSYC 236,Olin Hall,220,Fri,11:45,12:50,1,4.0,22,23,Social Psychology,1Y,Psychology
+202630,3091,PSYC 241,Olin Hall,113,Tue,10:30,12:20,1,4.0,19,25,Neuroscience I,01,Psychology
+202630,3091,PSYC 241,Olin Hall,113,Thu,10:30,12:20,1,4.0,19,25,Neuroscience I,01,Psychology
+202630,3093,PSYC 251,Olin Hall,232,Tue,10:30,12:20,1,4.0,24,24,Child & Adolescent Development,1D,Psychology
+202630,3093,PSYC 251,Olin Hall,232,Thu,10:30,12:20,1,4.0,24,24,Child & Adolescent Development,1D,Psychology
+202630,3095,PSYC 254,Olin Hall,232,Tue,14:15,16:05,1,4.0,25,23,Lifespan Development,1Y,Psychology
+202630,3095,PSYC 254,Olin Hall,232,Thu,14:15,16:05,1,4.0,25,23,Lifespan Development,1Y,Psychology
+202630,3432,PSYC 265,Olin Hall,229,Mon,14:15,15:20,1,4.0,24,25,Psychology of Mental Illness,01,Psychology
+202630,3432,PSYC 265,Olin Hall,229,Wed,14:15,15:20,1,4.0,24,25,Psychology of Mental Illness,01,Psychology
+202630,3432,PSYC 265,Olin Hall,229,Fri,14:15,15:20,1,4.0,24,25,Psychology of Mental Illness,01,Psychology
+202630,3096,PSYC 286,Olin Hall,229,Mon,11:45,12:35,1,4.0,23,26,Research Methods & Stats I,01,Psychology
+202630,3096,PSYC 286,Olin Hall,229,Tue,11:45,12:35,1,4.0,23,26,Research Methods & Stats I,01,Psychology
+202630,3096,PSYC 286,Olin Hall,229,Wed,11:45,12:35,1,4.0,23,26,Research Methods & Stats I,01,Psychology
+202630,3096,PSYC 286,Olin Hall,229,Thu,11:45,12:35,1,4.0,23,26,Research Methods & Stats I,01,Psychology
+202630,3097,PSYC 286L,Olin Hall,347,Wed,09:15,11:15,0,0.0,10,13,Laboratory,01,Psychology
+202630,3098,PSYC 286L,Olin Hall,347,Wed,14:15,16:15,0,0.0,13,11,Laboratory,02,Psychology
+202630,3100,PSYC 289,Olin Hall,121,Mon,11:45,12:50,1,4.0,25,25,Animal Minds,02,Psychology
+202630,3100,PSYC 289,Olin Hall,121,Wed,11:45,12:50,1,4.0,25,25,Animal Minds,02,Psychology
+202630,3100,PSYC 289,Olin Hall,121,Fri,11:45,12:50,1,4.0,25,25,Animal Minds,02,Psychology
+202630,3099,PSYC 289,Olin Hall,341,Mon,19:00,20:50,1,4.0,16,25,Psychology of Gender,1D,Psychology
+202630,3099,PSYC 289,Olin Hall,341,Wed,19:00,20:50,1,4.0,16,25,Psychology of Gender,1D,Psychology
+202630,3101,PSYC 306,Olin Hall,220,Mon,10:30,11:35,1,4.0,15,26,Research Methods & Stats. II,01,Psychology
+202630,3101,PSYC 306,Olin Hall,220,Wed,10:30,11:35,1,4.0,15,26,Research Methods & Stats. II,01,Psychology
+202630,3101,PSYC 306,Olin Hall,220,Fri,10:30,11:35,1,4.0,15,26,Research Methods & Stats. II,01,Psychology
+202630,3102,PSYC 306L,Olin Hall,347,Mon,08:00,10:00,0,0.0,5,13,Laboratory,01,Psychology
+202630,3103,PSYC 306L,Olin Hall,347,Mon,14:15,16:15,0,0.0,10,13,Laboratory,02,Psychology
+202630,3434,PSYC 378,Olin Hall,220,Mon,14:15,16:05,1,4.0,16,25,Cognitive Psychology,01,Psychology
+202630,3434,PSYC 378,Olin Hall,220,Wed,14:15,16:05,1,4.0,16,25,Cognitive Psychology,01,Psychology
+202630,3435,PSYC 378L,Olin Hall,347,Tue,09:15,11:15,0,0.0,7,12,Laboratory,01,Psychology
+202630,3436,PSYC 378L,Olin Hall,347,Tue,14:15,16:15,0,0.0,9,13,Laboratory,02,Psychology
+202630,3107,PSYC 380,Olin Hall,229,Mon,13:00,14:05,1,4.0,16,25,Introduction to Counseling,01,Psychology
+202630,3107,PSYC 380,Olin Hall,229,Wed,13:00,14:05,1,4.0,16,25,Introduction to Counseling,01,Psychology
+202630,3107,PSYC 380,Olin Hall,229,Fri,13:00,14:05,1,4.0,16,25,Introduction to Counseling,01,Psychology
+202630,3108,PSYC 398,Olin Hall,229,Mon,15:30,16:20,0.5,2.0,2,0,Practicum,01,Psychology
+202630,3108,PSYC 398,Olin Hall,229,Wed,15:30,16:20,0.5,2.0,2,0,Practicum,01,Psychology
+202630,3108,PSYC 398,Olin Hall,229,Fri,15:30,16:20,0.5,2.0,2,0,Practicum,01,Psychology
+202630,3433,PSYC 399,Olin Hall,229,Mon,15:30,16:20,1,4.0,12,0,Practicum,01,Psychology
+202630,3433,PSYC 399,Olin Hall,229,Wed,15:30,16:20,1,4.0,12,0,Practicum,01,Psychology
+202630,3433,PSYC 399,Olin Hall,229,Fri,15:30,16:20,1,4.0,12,0,Practicum,01,Psychology
+202630,3416,PBSV 101,Robinson Hall,203,Tue,10:30,12:20,1,4.0,17,25,Intro to Public Service,01,Public Service
+202630,3416,PBSV 101,Robinson Hall,203,Thu,10:30,12:20,1,4.0,17,25,Intro to Public Service,01,Public Service
+202630,3417,PBSV 101,Robinson Hall,203,Tue,14:15,16:05,1,4.0,13,25,Intro to Public Service,02,Public Service
+202630,3417,PBSV 101,Robinson Hall,203,Thu,14:15,16:05,1,4.0,13,25,Intro to Public Service,02,Public Service
+202630,3117,RS 101,Vulgamore Hall,103,Mon,10:30,11:35,1,4.0,14,25,Thinking About Religion,1H,Religious Studies
+202630,3117,RS 101,Vulgamore Hall,103,Wed,10:30,11:35,1,4.0,14,25,Thinking About Religion,1H,Religious Studies
+202630,3117,RS 101,Vulgamore Hall,103,Fri,10:30,11:35,1,4.0,14,25,Thinking About Religion,1H,Religious Studies
+202630,3118,RS 101,Vulgamore Hall,201,Mon,13:00,14:05,1,4.0,15,25,Thinking About Religion,2H,Religious Studies
+202630,3118,RS 101,Vulgamore Hall,201,Wed,13:00,14:05,1,4.0,15,25,Thinking About Religion,2H,Religious Studies
+202630,3118,RS 101,Vulgamore Hall,201,Fri,13:00,14:05,1,4.0,15,25,Thinking About Religion,2H,Religious Studies
+202630,3119,RS 212,Vulgamore Hall,201,Mon,11:45,12:50,1,4.0,10,25,Buddhist Traditions,1H,Religious Studies
+202630,3119,RS 212,Vulgamore Hall,201,Wed,11:45,12:50,1,4.0,10,25,Buddhist Traditions,1H,Religious Studies
+202630,3119,RS 212,Vulgamore Hall,201,Fri,11:45,12:50,1,4.0,10,25,Buddhist Traditions,1H,Religious Studies
+202630,3120,RS 234,Vulgamore Hall,201,Tue,10:30,12:20,1,4.0,9,20,"God, Evil and Miracles",1T,Religious Studies
+202630,3120,RS 234,Vulgamore Hall,201,Thu,10:30,12:20,1,4.0,9,20,"God, Evil and Miracles",1T,Religious Studies
+202630,3451,RS 256,Vulgamore Hall,103,Mon,14:15,15:20,1,4.0,14,20,Religion and the Environment,1V,Religious Studies
+202630,3451,RS 256,Vulgamore Hall,103,Wed,14:15,15:20,1,4.0,14,20,Religion and the Environment,1V,Religious Studies
+202630,3451,RS 256,Vulgamore Hall,103,Fri,14:15,15:20,1,4.0,14,20,Religion and the Environment,1V,Religious Studies
+202630,3328,SCAH 101,Olin Hall,113,Mon,10:30,11:35,0.5,2.0,9,20,Imagining Social Change,01,Social Change in Arts & Hum.
+202630,3328,SCAH 101,Olin Hall,113,Wed,10:30,11:35,0.5,2.0,9,20,Imagining Social Change,01,Social Change in Arts & Hum.
+202630,3296,SOC 101,Olin Hall,229,Mon,10:30,11:35,1,4.0,23,30,An Introduction to Sociology,1M,Sociology
+202630,3296,SOC 101,Olin Hall,229,Wed,10:30,11:35,1,4.0,23,30,An Introduction to Sociology,1M,Sociology
+202630,3296,SOC 101,Olin Hall,229,Fri,10:30,11:35,1,4.0,23,30,An Introduction to Sociology,1M,Sociology
+202630,3297,SOC 101,Olin Hall,218,Mon,13:00,14:05,1,4.0,28,30,An Introduction to Sociology,2M,Sociology
+202630,3297,SOC 101,Olin Hall,218,Wed,13:00,14:05,1,4.0,28,30,An Introduction to Sociology,2M,Sociology
+202630,3297,SOC 101,Olin Hall,218,Fri,13:00,14:05,1,4.0,28,30,An Introduction to Sociology,2M,Sociology
+202630,3299,SOC 345,Vulgamore Hall,202,Mon,09:15,10:20,1,4.0,15,15,Race and Ethnicity,1Y,Sociology
+202630,3299,SOC 345,Vulgamore Hall,202,Wed,09:15,10:20,1,4.0,15,15,Race and Ethnicity,1Y,Sociology
+202630,3299,SOC 345,Vulgamore Hall,202,Fri,09:15,10:20,1,4.0,15,15,Race and Ethnicity,1Y,Sociology
+202630,3298,SOC 389,Robinson Hall,404,Mon,11:45,12:50,1,4.0,15,15,Sociology through Film,01,Sociology
+202630,3298,SOC 389,Robinson Hall,404,Wed,11:45,12:50,1,4.0,15,15,Sociology through Film,01,Sociology
+202630,3298,SOC 389,Robinson Hall,404,Fri,11:45,12:50,1,4.0,15,15,Sociology through Film,01,Sociology
+202630,3139,SPAN 101,Vulgamore Hall,123,Mon,10:30,11:35,1,4.0,23,26,Elementary Spanish,1L,Spanish
+202630,3139,SPAN 101,Vulgamore Hall,123,Wed,10:30,11:35,1,4.0,23,26,Elementary Spanish,1L,Spanish
+202630,3139,SPAN 101,Vulgamore Hall,123,Fri,10:30,11:35,1,4.0,23,26,Elementary Spanish,1L,Spanish
+202630,3141,SPAN 203,Vulgamore Hall,123,Mon,14:15,15:20,1,4.0,10,24,Identity Through Music & Film,1L,Spanish
+202630,3141,SPAN 203,Vulgamore Hall,123,Wed,14:15,15:20,1,4.0,10,24,Identity Through Music & Film,1L,Spanish
+202630,3141,SPAN 203,Vulgamore Hall,123,Fri,14:15,15:20,1,4.0,10,24,Identity Through Music & Film,1L,Spanish
+202630,3142,SPAN 300,Vulgamore Hall,123,Mon,13:00,14:05,1,4.0,10,18,Spanish for Heritage Speakers,1L,Spanish
+202630,3142,SPAN 300,Vulgamore Hall,123,Wed,13:00,14:05,1,4.0,10,18,Spanish for Heritage Speakers,1L,Spanish
+202630,3142,SPAN 300,Vulgamore Hall,123,Fri,13:00,14:05,1,4.0,10,18,Spanish for Heritage Speakers,1L,Spanish
+202630,3143,SPAN 311,Vulgamore Hall,102,Mon,10:30,11:35,1,4.0,4,15,"Language, Geography, & Cult.",1L,Spanish
+202630,3143,SPAN 311,Vulgamore Hall,102,Wed,10:30,11:35,1,4.0,4,15,"Language, Geography, & Cult.",1L,Spanish
+202630,3143,SPAN 311,Vulgamore Hall,102,Fri,10:30,11:35,1,4.0,4,15,"Language, Geography, & Cult.",1L,Spanish
+202630,3144,SPAN 314,Vulgamore Hall,102,Mon,14:15,15:20,1,4.0,9,15,Storytellers,1T,Spanish
+202630,3144,SPAN 314,Vulgamore Hall,102,Wed,14:15,15:20,1,4.0,9,15,Storytellers,1T,Spanish
+202630,3144,SPAN 314,Vulgamore Hall,102,Fri,14:15,15:20,1,4.0,9,15,Storytellers,1T,Spanish
+202630,3492,TRIO 201,Olin Hall,230,Thu,13:00,14:05,0.25,1.0,13,13,Student Success Strategies II,01,TRiO Program
+202630,3493,TRIO 201,Olin Hall,215,Thu,13:00,14:05,0.25,1.0,13,12,Student Success Strategies II,02,TRiO Program
+202630,3441,THEA 123,Herrick Speech and Theater,508,Mon,11:45,12:50,1,4.0,20,20,The Elements of Design,1A,Theatre
+202630,3441,THEA 123,Herrick Speech and Theater,508,Wed,11:45,12:50,1,4.0,20,20,The Elements of Design,1A,Theatre
+202630,3441,THEA 123,Herrick Speech and Theater,508,Fri,11:45,12:50,1,4.0,20,20,The Elements of Design,1A,Theatre
+202630,3199,THEA 209,Herrick Speech and Theater,506,Mon,11:45,12:50,1,4.0,11,25,Dramatic Analysis,1T,Theatre
+202630,3199,THEA 209,Herrick Speech and Theater,506,Wed,11:45,12:50,1,4.0,11,25,Dramatic Analysis,1T,Theatre
+202630,3199,THEA 209,Herrick Speech and Theater,506,Fri,11:45,12:50,1,4.0,11,25,Dramatic Analysis,1T,Theatre
+202630,3202,THEA 211,Herrick Speech and Theater,THEATRE,Mon,10:30,11:35,1,4.0,10,20,Stagecraft and Theatre Tech.,1A,Theatre
+202630,3202,THEA 211,Herrick Speech and Theater,THEATRE,Wed,10:30,11:35,1,4.0,10,20,Stagecraft and Theatre Tech.,1A,Theatre
+202630,3202,THEA 211,Herrick Speech and Theater,THEATRE,Fri,10:30,11:35,1,4.0,10,20,Stagecraft and Theatre Tech.,1A,Theatre
+202630,3205,THEA 251,Herrick Speech and Theater,BB,Mon,13:00,14:05,1,4.0,26,25,Acting I,1A,Theatre
+202630,3205,THEA 251,Herrick Speech and Theater,BB,Wed,13:00,14:05,1,4.0,26,25,Acting I,1A,Theatre
+202630,3205,THEA 251,Herrick Speech and Theater,BB,Fri,13:00,14:05,1,4.0,26,25,Acting I,1A,Theatre
+202630,3204,THEA 280,Herrick Speech and Theater,508,Tue,10:30,12:20,1,4.0,9,20,Theatre History 1: BC - 1700,1H,Theatre
+202630,3204,THEA 280,Herrick Speech and Theater,508,Thu,10:30,12:20,1,4.0,9,20,Theatre History 1: BC - 1700,1H,Theatre
+202630,3206,THEA 350,Herrick Speech and Theater,BB,Tue,14:15,16:05,1,4.0,6,15,Directing for the Stage,01,Theatre
+202630,3206,THEA 350,Herrick Speech and Theater,BB,Thu,14:15,16:05,1,4.0,6,15,Directing for the Stage,01,Theatre
+202630,3408,WELL 147,Serra Fitness Center,129,Tue,09:15,10:05,0.25,1.0,12,20,Body Building & Development,01,Wellness
+202630,3408,WELL 147,Serra Fitness Center,129,Thu,09:15,10:05,0.25,1.0,12,20,Body Building & Development,01,Wellness
+202630,3411,WELL 172,Dow Recreation & Wellness,TRACK,Tue,13:00,14:05,0.25,1.0,12,40,Bowling,01,Wellness
+202630,3411,WELL 172,Dow Recreation & Wellness,TRACK,Thu,13:00,14:05,0.25,1.0,12,40,Bowling,01,Wellness
+202630,3321,WGS 240,Olin Hall,113,Mon,11:45,12:50,1,4.0,21,20,"Sexualities, Hist. & Ident.",1D,Women's Studies
+202630,3321,WGS 240,Olin Hall,113,Wed,11:45,12:50,1,4.0,21,20,"Sexualities, Hist. & Ident.",1D,Women's Studies
+202630,3321,WGS 240,Olin Hall,113,Fri,11:45,12:50,1,4.0,21,20,"Sexualities, Hist. & Ident.",1D,Women's Studies
+202630,3322,WGS 289,Olin Hall,215,Tue,14:15,16:05,1,4.0,18,20,Digital Culture and Society,1D,Women's Studies
+202630,3322,WGS 289,Olin Hall,215,Thu,14:15,16:05,1,4.0,18,20,Digital Culture and Society,1D,Women's Studies

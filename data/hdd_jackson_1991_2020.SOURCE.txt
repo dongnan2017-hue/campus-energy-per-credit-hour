@@ -1,0 +1,5 @@
+Monthly heating degree days (base 65 F), 1991-2020 climate normals.
+Station: JACKSON REYNOLDS FLD, MI US (GHCN USW00014833), about 21 km from Albion College.
+Source: NOAA National Centers for Environmental Information (NCEI), U.S. Climate Normals (Monthly), field MLY-HTDD-NORMAL.
+Download: https://www.ncei.noaa.gov/data/normals-monthly/1991-2020/access/USW00014833.csv
+Product page: https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals

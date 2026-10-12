@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Room 215 Energy Method</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one reading column; a chain strip up top, three numbered parts, a to-scale power chart, then sensitivity and sources. */
+:root {
+  --bg: #f3f6fa; --panel: #ffffff; --fg: #172033; --muted: #56627a; --line: #d6dde8;
+  --pub: #2160b8; --asm: #b05a05; --calc: #1c774a; --result: #0d2f66;
+  --pub-bg: #e6effb; --asm-bg: #fcefdc; --calc-bg: #e2f4ea;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d1320; --panel: #141c2b; --fg: #e5eaf4; --muted: #9ba8be; --line: #263147;
+    --pub: #7ab0ff; --asm: #f2a645; --calc: #62d39b; --result: #b8d4ff;
+    --pub-bg: #17263f; --asm-bg: #33250f; --calc-bg: #12302a; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0d1320; --panel: #141c2b; --fg: #e5eaf4; --muted: #9ba8be; --line: #263147;
+  --pub: #7ab0ff; --asm: #f2a645; --calc: #62d39b; --result: #b8d4ff;
+  --pub-bg: #17263f; --asm-bg: #33250f; --calc-bg: #12302a; color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--sans); line-height: 1.55; padding-inline: 16px; padding-block: 28px 56px; }
+.wrap { max-width: 820px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; min-width: 0; }
+h1 { font-size: clamp(1.6rem, 4.5vw, 2.3rem); line-height: 1.15; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+h2 { font-size: 1.15rem; margin: 0; letter-spacing: 0.02em; }
+p { margin: 0; }
+.lede { color: var(--muted); font-size: 1.02rem; max-width: 62ch; }
+.notice { border: 1px solid var(--line); background: var(--panel); border-radius: 10px; padding: 12px 14px; color: var(--muted); font-size: 0.92rem; }
+.notice b { color: var(--fg); }
+
+/* chain strip */
+.chain { display: flex; gap: 0; overflow-x: auto; padding-bottom: 6px; border-radius: 10px; }
+.link { flex: 0 0 auto; min-width: 128px; background: var(--panel); border: 1px solid var(--line); padding: 10px 12px; display: flex; flex-direction: column; gap: 2px; }
+.link + .link { margin-left: -1px; }
+.link:first-child { border-radius: 10px 0 0 10px; } .link:last-child { border-radius: 0 10px 10px 0; background: var(--result); border-color: var(--result); }
+.link small { color: var(--muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; }
+.link strong { font-family: var(--mono); font-size: 1.02rem; font-variant-numeric: tabular-nums; }
+.link:last-child small, .link:last-child strong { color: var(--bg); }
+
+.legend { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 0.86rem; color: var(--muted); }
+.tag { display: inline-flex; align-items: center; gap: 6px; font-size: 0.74rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; padding: 2px 8px; border-radius: 999px; }
+.tag::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.t-pub { color: var(--pub); background: var(--pub-bg); } .t-asm { color: var(--asm); background: var(--asm-bg); } .t-calc { color: var(--calc); background: var(--calc-bg); }
+
+.part { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.part > header { display: flex; flex-direction: column; gap: 2px; padding-bottom: 6px; border-bottom: 2px solid var(--fg); }
+.part > header span { color: var(--muted); font-size: 0.92rem; }
+.step { display: grid; grid-template-columns: 38px minmax(0, 1fr); gap: 0 12px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
+.n { font-family: var(--mono); font-weight: 600; color: var(--muted); font-size: 0.95rem; padding-top: 2px; }
+.body { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.top { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; justify-content: space-between; }
+.top h3 { margin: 0; font-size: 1rem; font-weight: 600; }
+.calc { font-family: var(--mono); font-size: 0.86rem; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; overflow-x: auto; white-space: pre-wrap; overflow-wrap: anywhere; }
+.res { font-family: var(--mono); font-weight: 600; font-size: 1.15rem; color: var(--result); font-variant-numeric: tabular-nums; }
+.why { color: var(--muted); font-size: 0.93rem; }
+.why b { color: var(--fg); font-weight: 600; }
+ul.tight { margin: 0; padding-left: 1.1rem; display: flex; flex-direction: column; gap: 3px; color: var(--muted); font-size: 0.93rem; }
+
+.chart { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 8px; }
+.chart svg { width: 100%; height: auto; display: block; }
+.chart .axis { stroke: var(--line); } .chart text { fill: var(--muted); font-family: var(--sans); font-size: 11px; }
+.chart .cap { color: var(--muted); font-size: 0.9rem; }
+
+.scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); }
+table { border-collapse: collapse; width: 100%; font-size: 0.92rem; min-width: 560px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 0.74rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+tr:last-child td { border-bottom: 0; }
+td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+.sources { display: flex; flex-direction: column; gap: 6px; color: var(--muted); font-size: 0.92rem; padding-left: 1.1rem; margin: 0; }
+a { color: var(--pub); text-underline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--pub); outline-offset: 2px; border-radius: 3px; }
+@media (max-width: 480px) { .step { grid-template-columns: 1fr; } .n { padding: 0; } }
+</style>
+
+</head>
+<body>
+<main class="wrap">
+  <header style="display:flex;flex-direction:column;gap:12px">
+    <h1>How one classroom's electricity cost is calculated</h1>
+    <p class="lede">A walk through Olin Hall room 215 at Albion College, from one campus-wide number down to a cost per credit hour for Fall 2026. Every input is marked as public data, an assumption, or arithmetic.</p>
+    <p class="notice"><b>Modeled estimates, not meter readings.</b> Albion publishes no building or room meter data, so the building and room figures divide up a single rounded campus total. Unofficial student project, not affiliated with or endorsed by Albion College.</p>
+  </header>
+
+  <section aria-label="The chain of numbers">
+    <div class="chain">
+      <div class="link"><small>Campus</small><strong>14,000,000 kWh</strong></div>
+      <div class="link"><small>Olin Hall</small><strong>931,068 kWh</strong></div>
+      <div class="link"><small>Room 215 a year</small><strong>10,429 kWh</strong></div>
+      <div class="link"><small>While a class runs</small><strong>3.87 kW</strong></div>
+      <div class="link"><small>Fall 2026 energy</small><strong>1,054 kWh</strong></div>
+      <div class="link"><small>Cost</small><strong>$147.63</strong></div>
+      <div class="link"><small>Per credit hour</small><strong>$6.71</strong></div>
+    </div>
+  </section>
+
+  <div class="legend" aria-label="Legend">
+    <span><span class="tag t-pub">Public data</span> a published fact</span>
+    <span><span class="tag t-asm">Assumption</span> my choice, adjustable</span>
+    <span><span class="tag t-calc">Arithmetic</span> follows from the rows above</span>
+  </div>
+
+  <!-- PART 1 -->
+  <section class="part" id="building">
+    <header><h2>Part 1. How much electricity does Olin Hall get?</h2><span>Steps 1 to 7</span></header>
+
+    <article class="step"><div class="n">1</div><div class="body">
+      <div class="top"><h3>Campus electricity</h3><span class="tag t-pub">Public data</span></div>
+      <div class="calc">14,000,000 kWh × 100% modeled share</div>
+      <div class="res">14,000,000 kWh</div>
+      <p class="why">Albion's news article says the college uses "about 14 million kilowatt hours." It gives no time period, so I treat it as one year. The 100% share means all of it is spread over the 36 buildings in the model. Albion has other buildings the map leaves out, so each building's share is probably a little high. This is the only real energy number in the whole chain.</p>
+    </div></article>
+
+    <article class="step"><div class="n">2</div><div class="body">
+      <div class="top"><h3>Olin Hall footprint</h3><span class="tag t-pub">Public data + arithmetic</span></div>
+      <div class="calc">shoelace area of the OpenStreetMap outline
+x = (lon − lon₀) × 111,320 × cos(lat)    y = (lat − lat₀) × 110,574</div>
+      <div class="res">1,958 m²</div>
+      <p class="why">The outline is a ring of longitude and latitude points. Degrees are not metres, so each point is converted first: one degree of latitude is about 110,574 m, and one degree of longitude is about 111,320 m times cos(latitude), because longitude lines draw closer together away from the equator. The shoelace formula then turns the corner points into a ground area.</p>
+    </div></article>
+
+    <article class="step"><div class="n">3</div><div class="body">
+      <div class="top"><h3>Floors and floor area</h3><span class="tag t-pub">Public data + arithmetic</span></div>
+      <div class="calc">floors = max(OpenStreetMap floors, highest floor implied by room numbers, 1)
+area = footprint × floors</div>
+      <div class="res">3 floors · 5,873 m²</div>
+      <p class="why">Olin's rooms (for example 341) imply floor 3, and OpenStreetMap also says 3. Floor area stands in for the building's total size, because no floor plans are public.</p>
+    </div></article>
+
+    <article class="step"><div class="n">4</div><div class="body">
+      <div class="top"><h3>Class hours per week</h3><span class="tag t-pub">Public data</span></div>
+      <div class="calc">sum of every class meeting's length in the building, each weekday separately</div>
+      <div class="res">248.3 h</div>
+      <p class="why">Courses meeting in the same room at the same time count once, so this is real occupied room time. I use it as a stand-in for how heavily the building is used.</p>
+    </div></article>
+
+    <article class="step"><div class="n">5</div><div class="body">
+      <div class="top"><h3>Class-hour density</h3><span class="tag t-calc">Arithmetic</span></div>
+      <div class="calc">density = 248.3 h ÷ 5,873 m² = 0.0423 per m²
+average of all scheduled buildings = 0.0288 per m²</div>
+      <div class="res">0.0423 vs 0.0288</div>
+      <p class="why">Olin is used about 1.47 times as intensely as the average scheduled building (0.0423 ÷ 0.0288).</p>
+    </div></article>
+
+    <article class="step"><div class="n">6</div><div class="body">
+      <div class="top"><h3>Activity factor</h3><span class="tag t-asm">Assumption (70/30 split)</span></div>
+      <div class="calc">factor = (1 − s) + s × density ÷ average, with s = 0.30
+       = 0.70 + 0.30 × (0.0423 ÷ 0.0288)</div>
+      <div class="res">1.141</div>
+      <p class="why">I assume <b>70%</b> of a building's electricity runs regardless of classes (lights, ventilation, servers) and <b>30%</b> rises and falls with class use. There is no public data to set that split; it is my guess, and it can be changed. A building with average use gets exactly 1.0, and buildings with no classes get 1.0.</p>
+    </div></article>
+
+    <article class="step"><div class="n">7</div><div class="body">
+      <div class="top"><h3>Olin Hall's electricity per year</h3><span class="tag t-calc">Arithmetic</span></div>
+      <div class="calc">weight = area × factor = 5,873 × 1.141 = 6,702   (all buildings together: 100,781)
+share = 6,702 ÷ 100,781 = 6.65%
+kWh = 14,000,000 × 6.65%</div>
+      <div class="res">931,068 kWh · 158.5 kWh per m²</div>
+      <p class="why">The campus average is about 139 kWh per m²; Olin is higher because it is busier. By construction, all buildings together add up to exactly 14,000,000 kWh.</p>
+    </div></article>
+  </section>
+
+  <!-- PART 2 -->
+  <section class="part" id="room">
+    <header><h2>Part 2. From the building to one classroom</h2><span>Steps 8 to 12</span></header>
+
+    <article class="step"><div class="n">8</div><div class="body">
+      <div class="top"><h3>Room 215's use factor</h3><span class="tag t-asm">Assumption (50/50)</span></div>
+      <div class="calc">scheduled 19.8 h a week; average Olin classroom 16.6 h a week
+use factor = (1 − u) + u × 19.8 ÷ 16.6, with u = 0.50
+           = 0.50 + 0.50 × 1.193</div>
+      <div class="res">1.096</div>
+      <p class="why">Half of a room's estimate is an equal share and half is weighted by how busy the room is. That 50/50 is another assumption.</p>
+    </div></article>
+
+    <article class="step"><div class="n">9</div><div class="body">
+      <div class="top"><h3>Room 215's electricity per year</h3><span class="tag t-asm">Assumption (classroom area)</span></div>
+      <div class="calc">building kWh per m² × classroom area × intensity multiplier × use factor
+= 158.5 × 60 × 1.00 × 1.096</div>
+      <div class="res">10,429 kWh</div>
+      <p class="why"><b>60 m² is my assumption</b> for a typical classroom, because room sizes are not public; it can be set per building. The multiplier is 1.00 unless you change it for labs or other heavy rooms. As a safety rule a building's rooms can never add up to more than the building; that rule is not triggered here.</p>
+    </div></article>
+
+    <article class="step"><div class="n">10</div><div class="body">
+      <div class="top"><h3>Average power</h3><span class="tag t-calc">Arithmetic</span></div>
+      <div class="calc">10,429 kWh ÷ 8,760 hours in a year</div>
+      <div class="res">1.19 kW</div>
+      <p class="why">The room's electricity spread evenly over every hour of the year.</p>
+    </div></article>
+
+    <article class="step"><div class="n">11</div><div class="body">
+      <div class="top"><h3>Share of the week the room is in use</h3><span class="tag t-calc">Arithmetic</span></div>
+      <div class="calc">19.8 h ÷ 168 h in a week</div>
+      <div class="res">0.1176</div>
+      <p class="why">About 12% of the week.</p>
+    </div></article>
+
+    <article class="step"><div class="n">12</div><div class="body">
+      <div class="top"><h3>Power with no class and while a class runs</h3><span class="tag t-asm">Assumption (70/30)</span></div>
+      <div class="calc">no class:  1.19 × 0.70 = 0.83 kW
+class running:  1.19 × (0.70 + 0.30 ÷ 0.1176) = 1.19 × 3.25 = 3.87 kW</div>
+      <div class="res">0.83 kW  /  3.87 kW</div>
+      <p class="why">The class-driven 30% all happens during the 11.76% of the week the room is in use, so it is concentrated there. Nothing is created or lost: 0.1176 × 3.87 + 0.8824 × 0.83 ≈ 0.455 + 0.732 = 1.19 kW, the average again.</p>
+    </div></article>
+
+    <figure class="chart" aria-label="Room 215 power through a week, drawn to scale">
+      <svg viewBox="0 0 640 220" role="img" aria-labelledby="ct ds">
+        <title id="ct">Power through a week for room 215</title>
+        <desc id="ds">The room draws 0.83 kilowatts for 88 percent of the week and 3.87 kilowatts for 12 percent. The average is 1.19 kilowatts.</desc>
+        <line class="axis" x1="60" y1="180" x2="620" y2="180"/>
+        <line class="axis" x1="60" y1="20" x2="60" y2="180"/>
+        <!-- scale: 0 to 4 kW over 160 px => 40 px per kW; week 560 px wide -->
+        <rect x="60" y="146.8" width="494.1" height="33.2" fill="var(--pub)" opacity="0.55"/>
+        <rect x="554.1" y="25.2" width="65.9" height="154.8" fill="var(--asm)" opacity="0.85"/>
+        <line x1="60" y1="132.4" x2="620" y2="132.4" stroke="var(--fg)" stroke-width="1.5" stroke-dasharray="5 4"/>
+        <text x="64" y="127">average 1.19 kW</text>
+        <text x="64" y="166" style="fill:var(--fg)">no class: 0.83 kW (88% of the week)</text>
+        <text x="618" y="20" text-anchor="end" style="fill:var(--fg)">class running: 3.87 kW (12%)</text>
+        <text x="54" y="184" text-anchor="end">0</text><text x="54" y="104" text-anchor="end">2</text><text x="54" y="24" text-anchor="end">4 kW</text>
+        <text x="60" y="200">start of week</text><text x="620" y="200" text-anchor="end">168 hours</text>
+        <text x="340" y="214" text-anchor="middle">The two blocks have the same energy as the dashed average line.</text>
+      </svg>
+      <figcaption class="cap">The 3.87 kW block is thinner than the 0.83 kW block is wide, which is why the weekly average sits low at 1.19 kW.</figcaption>
+    </figure>
+  </section>
+
+  <!-- PART 3 -->
+  <section class="part" id="term">
+    <header><h2>Part 3. From power to Fall 2026 dollars</h2><span>Steps 13 to 18</span></header>
+
+    <article class="step"><div class="n">13</div><div class="body">
+      <div class="top"><h3>Class days in Fall 2026</h3><span class="tag t-pub">Public data</span></div>
+      <div class="calc">Aug 24 to Dec 4, minus Sep 7, Oct 12–13, Nov 25–28, counted per weekday</div>
+      <div class="res">Mon ×13 · Tue ×14 · Wed ×14 · Thu ×14 · Fri ×14</div>
+      <p class="why">Dates come from the Registrar's academic calendar. Final exams are not counted.</p>
+    </div></article>
+
+    <article class="step"><div class="n">14</div><div class="body">
+      <div class="top"><h3>Class hours in the term</h3><span class="tag t-calc">Arithmetic</span></div>
+      <div class="calc">for each meeting: its share of the room's real time × class days of that weekday</div>
+      <div class="res">272.2 h over 7 sections</div>
+      <p class="why">If several courses meet in a room at the same time (cross-listed or co-taught), <b>the room is in use once and the time is split equally among them</b>. Seven courses in a 2.75-hour block get 2.75 ÷ 7 = 0.39 hours each, so the room's energy is not charged seven times.</p>
+    </div></article>
+
+    <article class="step"><div class="n">15</div><div class="body">
+      <div class="top"><h3>Electricity while classes run</h3><span class="tag t-calc">Arithmetic</span></div>
+      <div class="calc">272.2 h × 3.87 kW</div>
+      <div class="res">1,054 kWh</div>
+      <p class="why">The product is 1,053 kWh before rounding of the displayed inputs.</p>
+    </div></article>
+
+    <article class="step"><div class="n">16</div><div class="body">
+      <div class="top"><h3>Cost</h3><span class="tag t-pub">Public data price</span></div>
+      <div class="calc">1,054 kWh × $0.1401 per kWh</div>
+      <div class="res">$147.63</div>
+      <p class="why">14.01 cents is the Michigan commercial average in the EIA's 2024 table. Albion's actual rate is not public.</p>
+    </div></article>
+
+    <article class="step"><div class="n">17</div><div class="body">
+      <div class="top"><h3>Credit hours taught in the room</h3><span class="tag t-pub">Public data</span></div>
+      <div class="calc">each section's credit hours = Albion units × 4, shared over its rooms by class hours, summed for room 215</div>
+      <div class="res">22.0 credit hours</div>
+      <p class="why">The Registrar's rule is that one unit equals four semester hours. Each lab section (a zero-credit course such as BIOL 195L) is given 0.25 unit, 1 credit hour, and its lecture sections give up the same 0.25 unit.</p>
+    </div></article>
+
+    <article class="step"><div class="n">18</div><div class="body">
+      <div class="top"><h3>Energy cost per credit hour</h3><span class="tag t-calc">Arithmetic</span></div>
+      <div class="calc">$147.63 ÷ 22.0</div>
+      <div class="res">$6.71</div>
+      <p class="why">This is for the credit hours taught in this room. For a section, course or department, add the energy dollars of all its meetings and divide by its credit hours.</p>
+    </div></article>
+  </section>
+
+  <section class="part" id="winter">
+    <header><h2>What about winter?</h2><span>Electricity and heating fuel in the cold months</span></header>
+    <figure class="chart" aria-label="Share of annual heating fuel by month, drawn to scale">
+      <svg viewBox="0 0 640 200" role="img" aria-labelledby="wt wd"><title id="wt">Share of the year's heating fuel by month</title><desc id="wd">January 17.3 percent, February 14.8, March 12.8, April 8.1, May 4.6, June 2.2, July 1.8, August 1.9, September 3.3, October 7.1, November 11.0, December 15.2. December to February total 47.3 percent.</desc><line class="axis" x1="48" y1="170" x2="624" y2="170"/><rect x="54" y="40.2" width="36" height="129.8" fill="var(--asm)" opacity="0.9"/><text x="72" y="36.2" text-anchor="middle" style="fill:var(--fg)">17.3</text><text x="72" y="186" text-anchor="middle">Jan</text><rect x="102" y="59.0" width="36" height="111.0" fill="var(--asm)" opacity="0.9"/><text x="120" y="55.0" text-anchor="middle" style="fill:var(--fg)">14.8</text><text x="120" y="186" text-anchor="middle">Feb</text><rect x="150" y="74.0" width="36" height="96.0" fill="var(--pub)" opacity="0.5"/><text x="168" y="70.0" text-anchor="middle" style="fill:var(--fg)">12.8</text><text x="168" y="186" text-anchor="middle">Mar</text><rect x="198" y="109.2" width="36" height="60.8" fill="var(--pub)" opacity="0.5"/><text x="216" y="105.2" text-anchor="middle" style="fill:var(--fg)">8.1</text><text x="216" y="186" text-anchor="middle">Apr</text><rect x="246" y="135.5" width="36" height="34.5" fill="var(--pub)" opacity="0.5"/><text x="264" y="131.5" text-anchor="middle" style="fill:var(--fg)">4.6</text><text x="264" y="186" text-anchor="middle">May</text><rect x="294" y="153.5" width="36" height="16.5" fill="var(--pub)" opacity="0.5"/><text x="312" y="149.5" text-anchor="middle" style="fill:var(--fg)">2.2</text><text x="312" y="186" text-anchor="middle">Jun</text><rect x="342" y="156.5" width="36" height="13.5" fill="var(--pub)" opacity="0.5"/><text x="360" y="152.5" text-anchor="middle" style="fill:var(--fg)">1.8</text><text x="360" y="186" text-anchor="middle">Jul</text><rect x="390" y="155.8" width="36" height="14.2" fill="var(--pub)" opacity="0.5"/><text x="408" y="151.8" text-anchor="middle" style="fill:var(--fg)">1.9</text><text x="408" y="186" text-anchor="middle">Aug</text><rect x="438" y="145.2" width="36" height="24.8" fill="var(--pub)" opacity="0.5"/><text x="456" y="141.2" text-anchor="middle" style="fill:var(--fg)">3.3</text><text x="456" y="186" text-anchor="middle">Sep</text><rect x="486" y="116.8" width="36" height="53.2" fill="var(--pub)" opacity="0.5"/><text x="504" y="112.8" text-anchor="middle" style="fill:var(--fg)">7.1</text><text x="504" y="186" text-anchor="middle">Oct</text><rect x="534" y="87.5" width="36" height="82.5" fill="var(--pub)" opacity="0.5"/><text x="552" y="83.5" text-anchor="middle" style="fill:var(--fg)">11.0</text><text x="552" y="186" text-anchor="middle">Nov</text><rect x="582" y="56.0" width="36" height="114.0" fill="var(--asm)" opacity="0.9"/><text x="600" y="52.0" text-anchor="middle" style="fill:var(--fg)">15.2</text><text x="600" y="186" text-anchor="middle">Dec</text><text x="624" y="14" text-anchor="end" style="fill:var(--fg)">Dec + Jan + Feb = 47.3% of the year</text></svg>
+      <figcaption class="cap">Share of the year's heating fuel used each month, in percent. Orange bars are December to February.</figcaption>
+    </figure>
+    <ul class="tight" style="color:var(--fg)">
+      <li><b>Electricity</b> is spread evenly over the days of the year, so December to February carries 90 of 365 days, which is 24.7% of the year's electricity. The model has no winter lighting or electric-heating pattern, so real winter electricity could differ.</li>
+      <li><b>Heating fuel</b> follows NOAA's heating degree days for Jackson Reynolds Field: December to February has 3,422.9 of the year's 6,469.6. With my assumption that 80% of heating fuel is weather-driven and 20% flat (hot water, kitchens), those three months use <b>47.3%</b> of the year's heating fuel, and November to March use 71.0%.</li>
+      <li><b>Heating cost per credit hour</b> cannot be given in dollars: Albion's heating total and fuel price are not public, and which heating system each building uses is not public either. The app shows each building's share of the heating instead, and shows dollars once you type a heating total and a price.</li>
+      <li><b>A winter or spring term</b> needs that term's schedule. The Registrar lists Fall 2026 as the newest term and has not published Spring 2027, so the classroom cost here covers Fall 2026 only. The same steps apply once it is posted.</li>
+    </ul>
+  </section>
+
+  <section class="part" id="trust">
+    <header><h2>How much to trust it</h2><span>What moves the result</span></header>
+    <div class="scroll"><table>
+      <thead><tr><th>Input</th><th>Kind</th><th>If it changes</th></tr></thead>
+      <tbody>
+        <tr><td>14 million kWh</td><td><span class="tag t-pub">Public, rounded, dated</span></td><td>Every figure scales equally.</td></tr>
+        <tr><td>Price, 14.01 cents</td><td><span class="tag t-pub">Public average</span></td><td>Every dollar scales equally.</td></tr>
+        <tr><td>Classroom area, 60 m²</td><td><span class="tag t-asm">Assumption</span></td><td>At 90 m² room 215 costs 1.5 times as much.</td></tr>
+        <tr><td>70/30 split</td><td><span class="tag t-asm">Assumption</span></td><td class="num">80/20: about 3.0 kW and about $5.2 per credit hour.<br>50/50: about 5.6 kW and about $9.7.</td></tr>
+        <tr><td>Floors, areas, schedule</td><td><span class="tag t-pub">Public</span></td><td>Small effects.</td></tr>
+      </tbody>
+    </table></div>
+    <p class="why">The 70/30 split and the classroom area are the largest uncertainties. Comparing rooms (a busier building, a bigger room) is more meaningful than the exact dollars.</p>
+  </section>
+
+  <section class="part" id="sources">
+    <header><h2>Sources</h2><span>Accessed October 12, 2026</span></header>
+    <ul class="sources">
+      <li>Albion College, <a href="https://www.albion.edu/post/albion-college-joins-climate-leadership-network-commits-to-action/">Albion College Joins Climate Leadership Network, Commits to Action</a> (December 18, 2020): the 14 million kWh figure.</li>
+      <li>OpenStreetMap contributors, <a href="https://www.openstreetmap.org/copyright">building outlines and floor counts</a>, Open Database License.</li>
+      <li>Albion College Registrar, <a href="https://www.albion.edu/offices/registrar/course-schedules/">Course Schedules</a>: Fall 2026 meetings, rooms, credits.</li>
+      <li>Albion College Registrar, <a href="https://www.albion.edu/offices/registrar/academic-calendar/">Academic Calendar</a>: class days.</li>
+      <li>Albion College Registrar, <a href="https://www.albion.edu/offices/registrar/frequently-asked-questions/">Frequently Asked Questions</a>: one unit equals four semester hours.</li>
+      <li>U.S. Energy Information Administration, <a href="https://www.eia.gov/electricity/sales_revenue_price/pdf/table_5B.pdf">2024 Average Monthly Bill, Commercial</a>: Michigan 14.01 cents per kWh.</li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>
